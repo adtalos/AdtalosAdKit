@@ -1,0 +1,248 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdtalosAdKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AdSupport
+import AppTrackingTransparency
+import CoreLocation
+import CoreMotion
+import CoreTelephony
+import Darwin
+import Foundation
+import Network
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_hasMissingDesignatedInitializers @objc(AdtalosBaseAd) public class BaseAd : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc final public let unitID: Swift.String
+  @objc public var autoRetry: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var videoListener: (any AdtalosAdKit.VideoListener)? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var listener: (any AdtalosAdKit.Listener)? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc public var isLoaded: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @objc public func load()
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor @objc public func load() async throws
+  @objc public var price: Swift.Int64 {
+    @objc get
+  }
+  @objc public var winPrice: Swift.Int64 {
+    @objc get
+  }
+  @discardableResult
+  @objc public func sendWinNotice() -> Swift.Bool
+  @discardableResult
+  @objc public func sendWinNotice(_ winPrice: Swift.Int64) -> Swift.Bool
+  @discardableResult
+  @objc public func sendLossNotice(_ lossReason: AdtalosAdKit.LossReason) -> Swift.Bool
+  @objc deinit
+}
+@objc(AdtalosListener) public protocol Listener : ObjectiveC.NSObjectProtocol {
+  @objc optional func onBeforeRequest()
+  @objc optional func onLoaded()
+  @objc optional func onFailedToLoad(_ error: any Swift.Error)
+  @objc optional func onRendered()
+  @objc optional func onShown()
+  @objc optional func onClicked()
+  @objc optional func onLeftApplication()
+  @objc optional func onClosed()
+}
+@objc(AdtalosRewardVideoListener) public protocol RewardVideoListener : AdtalosAdKit.Listener {
+  @objc optional func onRewarded(_ data: Swift.String)
+}
+@objc(AdtalosVideoListener) public protocol VideoListener : ObjectiveC.NSObjectProtocol {
+  @objc optional func onVideoLoad(_ metadata: AdtalosAdKit.VideoMetadata)
+  @objc optional func onVideoStart()
+  @objc optional func onVideoPlay()
+  @objc optional func onVideoPause()
+  @objc optional func onVideoEnd()
+  @objc optional func onVideoVolumeChange(_ volume: Swift.Double, muted: Swift.Bool)
+  @objc optional func onVideoTimeUpdate(_ currentTime: Swift.Double, duration: Swift.Double)
+  @objc optional func onVideoError()
+  @objc optional func onVideoBreak()
+}
+@objc(AdtalosLossReason) public enum LossReason : Swift.Int, Swift.CaseIterable {
+  case bidPriceFilter = 1001
+  case priceLowFilter = 1002
+  case admBlacklistFilter = 1003
+  case completeFilter = 1004
+  case timeoutFilter = 1005
+  case otherFilter = 1006
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias AllCases = [AdtalosAdKit.LossReason]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AdtalosAdKit.LossReason] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosBannerAd) public class BannerAd : AdtalosAdKit.ViewAd, @unchecked Swift.Sendable {
+  public init(frame: CoreFoundation.CGRect, unitID: Swift.String)
+  @_Concurrency.MainActor @objc public init(_ pos: CoreFoundation.CGPoint, unitID: Swift.String)
+  @_Concurrency.MainActor @objc convenience public init(unitID: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosFeedAd) public class FeedAd : AdtalosAdKit.ViewAd, @unchecked Swift.Sendable {
+  @objc public init(frame: CoreFoundation.CGRect, unitID: Swift.String)
+  @_Concurrency.MainActor @objc public init(_ pos: CoreFoundation.CGPoint, unitID: Swift.String)
+  @_Concurrency.MainActor @objc convenience public init(unitID: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosInterstitialAd) public class InterstitialAd : AdtalosAdKit.ViewControllerAd, @unchecked Swift.Sendable {
+  @objc public init(unitID: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosRewardVideoAd) public class RewardVideoAd : AdtalosAdKit.ViewControllerAd, @unchecked Swift.Sendable {
+  @objc public init(unitID: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosSplashAd) public class SplashAd : AdtalosAdKit.ViewControllerAd, @unchecked Swift.Sendable {
+  @objc public init(unitID: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosViewAd) public class ViewAd : AdtalosAdKit.BaseAd, @unchecked Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @objc public var view: UIKit.UIView? {
+    @objc get
+  }
+  #endif
+  @_Concurrency.MainActor @objc public func destroy()
+  @_Concurrency.MainActor @objc public func pause()
+  @_Concurrency.MainActor @objc public func resume()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosViewControllerAd) public class ViewControllerAd : AdtalosAdKit.ViewAd, @unchecked Swift.Sendable {
+  @_Concurrency.MainActor @objc public func show(view: UIKit.UIView, frame: CoreFoundation.CGRect = .zero) -> Swift.Bool
+  @_Concurrency.MainActor @objc public func show(viewController: UIKit.UIViewController, frame: CoreFoundation.CGRect = .zero, autoCloseViewController: Swift.Bool = false) -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor @objc public func show() -> Swift.Bool
+  @objc deinit
+}
+@objc(AdtalosVideoMetadata) final public class VideoMetadata : ObjectiveC.NSObject, Swift.Codable {
+  @objc(AdtalosPlayType) public enum PlayType : Swift.Int, Swift.CaseIterable {
+    case firstPlay = 1
+    case continuePlay = 2
+    case replay = 3
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias AllCases = [AdtalosAdKit.VideoMetadata.PlayType]
+    public typealias RawValue = Swift.Int
+    nonisolated public static var allCases: [AdtalosAdKit.VideoMetadata.PlayType] {
+      get
+    }
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc(AdtalosStatus) public enum Status : Swift.Int, Swift.CaseIterable {
+    case normal = 0
+    case loading = 1
+    case error = 2
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias AllCases = [AdtalosAdKit.VideoMetadata.Status]
+    public typealias RawValue = Swift.Int
+    nonisolated public static var allCases: [AdtalosAdKit.VideoMetadata.Status] {
+      get
+    }
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc final public let duration: Swift.Double
+  @objc final public let videoWidth: Swift.Int
+  @objc final public let videoHeight: Swift.Int
+  @objc final public let autoplay: Swift.Bool
+  @objc final public var currentTime: Swift.Double
+  @objc final public var muted: Swift.Bool
+  @objc final public var volume: Swift.Double
+  @objc final public var type: AdtalosAdKit.VideoMetadata.PlayType
+  @objc final public var status: AdtalosAdKit.VideoMetadata.Status
+  @objc final public var ended: Swift.Bool
+  public init(duration: Swift.Double = .zero, videoWidth: Swift.Int = .zero, videoHeight: Swift.Int = .zero, autoplay: Swift.Bool = true, currentTime: Swift.Double = .zero, muted: Swift.Bool = true, volume: Swift.Double = 1.0)
+  public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func json() -> Foundation.Data?
+  #endif
+  @objc final public func jsonString() -> Swift.String
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc(AdtalosVideoController) public protocol VideoController {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc var videoListener: (any AdtalosAdKit.VideoListener)? { get set }
+  #endif
+  @objc var isPlaying: Swift.Bool { get }
+  @objc var isEnded: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc var metadata: AdtalosAdKit.VideoMetadata? { get }
+  #endif
+  @objc var hasVideo: Swift.Bool { get }
+  @objc @_Concurrency.MainActor func play()
+  @objc @_Concurrency.MainActor func pause()
+  @objc @_Concurrency.MainActor func mute(_ mute: Swift.Bool)
+}
+@objc(AdtalosConfiguration) final public class Configuration : ObjectiveC.NSObject, Swift.Sendable {
+  @objc public init(token: Swift.String = "", appToken: Swift.String = "", idfa: Swift.String = "", caids: [AdtalosAdKit.Caid] = [])
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosSDK) final public class SDK : ObjectiveC.NSObject {
+  @objc public static let sdkVersion: Swift.String
+  @objc public static var userAgent: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public static var token: Swift.String {
+    @objc get
+  }
+  @objc public static var appToken: Swift.String {
+    @objc get
+  }
+  @objc public static func initialize(_ config: AdtalosAdKit.Configuration)
+  @objc override dynamic public init()
+  @objc deinit
+}
+infix operator >>> : BitwiseShiftPrecedence
+@objc(AdtalosCaid) final public class Caid : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
+  @objc final public let caid: Swift.String
+  @objc final public let version: Swift.String
+  @objc public init(caid: Swift.String = "", version: Swift.String = "")
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
+  #endif
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension AdtalosAdKit.LossReason : Swift.Equatable {}
+extension AdtalosAdKit.LossReason : Swift.Hashable {}
+extension AdtalosAdKit.LossReason : Swift.RawRepresentable {}
+extension AdtalosAdKit.VideoMetadata.PlayType : Swift.Equatable {}
+extension AdtalosAdKit.VideoMetadata.PlayType : Swift.Hashable {}
+extension AdtalosAdKit.VideoMetadata.PlayType : Swift.RawRepresentable {}
+extension AdtalosAdKit.VideoMetadata.Status : Swift.Equatable {}
+extension AdtalosAdKit.VideoMetadata.Status : Swift.Hashable {}
+extension AdtalosAdKit.VideoMetadata.Status : Swift.RawRepresentable {}

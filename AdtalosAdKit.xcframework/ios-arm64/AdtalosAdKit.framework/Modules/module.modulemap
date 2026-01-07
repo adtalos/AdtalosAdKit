@@ -1,0 +1,4 @@
+framework module AdtalosAdKit {
+  header "AdtalosAdKit-Swift.h"
+  requires objc
+}
