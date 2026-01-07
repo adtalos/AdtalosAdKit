@@ -23,10 +23,17 @@ Pod::Spec.new do |spec|
   spec.author             = { "xinyihulian" => "developer_apple@adtalos.com" }
   
   spec.ios.deployment_target = "12.0"
-  spec.resource      = 'AdtalosAd.bundle'
-
-  spec.source       = { :git => "https://github.com/adtalos/AdtalosAdKit.git", :tag => "#{spec.version}" }
 
   spec.vendored_frameworks  = "AdtalosAdKit.xcframework"
+  spec.resource_bundles = {
+    "AdtalosAdKit" => ["AdtalosAd.bundle"]
+  }
+
+  spec.source = {
+    :git => "https://github.com/adtalos/AdtalosAdKit.git",
+    :tag => spec.version.to_s
+  }
+
+  spec.swift_versions = ["5.7"]
 
 end
