@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -12,7 +12,7 @@ let package = Package(
         .library(
             name: "AdtalosAdKit",
             targets: ["AdtalosAdKit"]
-        ),
+        )
     ],
     dependencies: [
 	
@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdtalosAdKit",
-            path: "./AdtalosAdKit.xcframework"
+	    path: "AdtalosAdKit.xcframework"
         )
     ]
 )
