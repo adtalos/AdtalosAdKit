@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "AdtalosAdKit 广告 SDK"
 
   spec.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks  = "AdtalosAdKit.xcframework"
   spec.resource_bundles = {
-    "AdtalosAdKit" => ["AdtalosAd.bundle"]
+    "AdtalosAd" => ["AdtalosAd.bundle"]
   }
 
   spec.source = {
