@@ -25,8 +25,9 @@ let package = Package(
 	.target(
             name: "AdtalosAdResources",
             resources: [
-                .process("AdtalosAd.bundle") // 将 bundle 直接打包进 target
-            ]
+                .copy("../../AdtalosAd.bundle") // 将 bundle 直接打包进 target
+            ],
+	    path: "Sources/AdtalosAdResources"
         ),
     ]
 )
