@@ -26,7 +26,7 @@ let package = Package(
             name: "AdtalosAd",
 	    path: "Sources/AdtalosAd",
             resources: [
-                .process("AdtalosAd.bundle")
+                .copy("AdtalosAd.bundle")
             ]
         ),
     ]
