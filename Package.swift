@@ -25,7 +25,7 @@ let package = Package(
 	   .target(
             name: "AdtalosAd",
             resources: [
-                .copy("AdtalosAd.bundle")
+                .copy("AdtalosAd")
             ]
         ),
     ]
