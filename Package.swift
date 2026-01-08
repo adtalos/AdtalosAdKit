@@ -20,12 +20,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdtalosAdKit",
-	       path: "AdtalosAdKit.xcframework"
+	    path: "AdtalosAdKit.xcframework"
         ),
-	   .target(
+	.target(
             name: "AdtalosAd",
             resources: [
-                .copy("AdtalosAd")
+                .process("Sources")
             ]
         ),
     ]
