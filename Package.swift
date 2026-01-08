@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "AdtalosAdKit",
-            targets: ["AdtalosAdKit", "AdtalosAdResources"]
+            targets: ["AdtalosAdKit", "AdtalosAd"]
         ),
     ],
     dependencies: [
@@ -20,14 +20,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdtalosAdKit",
-	    path: "AdtalosAdKit.xcframework"
+	       path: "AdtalosAdKit.xcframework"
         ),
-	.target(
-            name: "AdtalosAdResources",
+	   .target(
+            name: "AdtalosAd",
             resources: [
-                .copy("../../AdtalosAd.bundle") // 将 bundle 直接打包进 target
-            ],
-	    path: "Sources/AdtalosAdResources"
+                .copy("AdtalosAd.bundle")
+            ]
         ),
     ]
 )
