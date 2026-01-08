@@ -13,6 +13,10 @@ let package = Package(
             name: "AdtalosAdKit",
             targets: ["AdtalosAdKit"]
         ),
+	.library(
+            name: "AdtalosAd",
+            targets: ["AdtalosAd"]
+        )
     ],
     dependencies: [
 	
@@ -21,7 +25,13 @@ let package = Package(
         .binaryTarget(
             name: "AdtalosAdKit",
 	    path: "AdtalosAdKit.xcframework"
-        )
+        ),
+	.target(
+            name: "AdtalosAd",
+            resources: [
+                .process("Sources/AdtalosAd/Resources")
+            ]
+        ),
     ]
 )
 
