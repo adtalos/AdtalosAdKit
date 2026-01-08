@@ -11,11 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "AdtalosAdKit",
-            targets: ["AdtalosAdKit"]
-        ),
-	.library(
-            name: "AdtalosAd",
-            targets: ["AdtalosAd"]
+            targets: ["AdtalosAdKit", "AdtalosAd"]
         )
     ],
     dependencies: [
@@ -28,8 +24,9 @@ let package = Package(
         ),
 	.target(
             name: "AdtalosAd",
+	    path: "Sources/AdtalosAd",
             resources: [
-                .process("Sources/AdtalosAd/Resources")
+                .process("AdtalosAd.bundle")
             ]
         ),
     ]
