@@ -2,14 +2,19 @@
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdtalosAdKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+import AVKit
 import AdSupport
 import AppTrackingTransparency
+import CommonCrypto
+import CoreData
 import CoreLocation
 import CoreMotion
 import CoreTelephony
 import Darwin
 import Foundation
 import Network
+import Security
 import Swift
 import SystemConfiguration
 import UIKit
@@ -52,6 +57,117 @@ import os
   @objc public func sendWinNotice(_ winPrice: Swift.Int64) -> Swift.Bool
   @discardableResult
   @objc public func sendLossNotice(_ lossReason: AdtalosAdKit.LossReason) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosNativeAd) public class NativeAd : AdtalosAdKit.BaseAd, @unchecked Swift.Sendable {
+  @objc public var nativeResponse: AdtalosAdKit.NativeResponse? {
+    get
+  }
+  @objc public init(unitID: Swift.String)
+  @_Concurrency.MainActor @objc public func destroy()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(AdtalosNativeResponse) public class NativeResponse : ObjectiveC.NSObject {
+  @_Concurrency.MainActor @objc public func destroy()
+  @objc public var title: Swift.String {
+    @objc get
+  }
+  @objc public var subTitle: Swift.String {
+    @objc get
+  }
+  @objc public var desc: Swift.String {
+    @objc get
+  }
+  @objc public var icon: UIKit.UIImage? {
+    get
+  }
+  @objc public var iconURL: Swift.String {
+    @objc get
+  }
+  @objc public var image: UIKit.UIImage? {
+    get
+  }
+  @objc public var imageURL: Swift.String {
+    @objc get
+  }
+  @objc public var imageList: [UIKit.UIImage] {
+    get
+  }
+  @objc public var imageURLList: [Swift.String] {
+    @objc get
+  }
+  @objc public var imageWidth: Swift.Int {
+    @objc get
+  }
+  @objc public var imageHeight: Swift.Int {
+    @objc get
+  }
+  @objc public var logo: UIKit.UIImage? {
+    get
+  }
+  @objc public var logoURL: Swift.String {
+    @objc get
+  }
+  @objc public var buttonText: Swift.String {
+    @objc get
+  }
+  @objc public var isDownloadAd: Swift.Bool {
+    @objc get
+  }
+  @objc public var developer: Swift.String {
+    @objc get
+  }
+  @objc public var appBundle: Swift.String {
+    @objc get
+  }
+  @objc public var appName: Swift.String {
+    @objc get
+  }
+  @objc public var appVersion: Swift.String {
+    @objc get
+  }
+  @objc public var appDesc: Swift.String {
+    @objc get
+  }
+  @objc public var appDescURL: Swift.String {
+    @objc get
+  }
+  @objc public var appSize: Swift.Int64 {
+    @objc get
+  }
+  @objc public var privacyURL: Swift.String {
+    @objc get
+  }
+  @objc public var permissionURL: Swift.String {
+    @objc get
+  }
+  @objc public var hasVideo: Swift.Bool {
+    @objc get
+  }
+  @objc public var videoURL: Swift.String {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var videoView: UIKit.UIView? {
+    @objc get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public var videoMetadata: AdtalosAdKit.VideoMetadata? {
+    @objc get
+  }
+  #endif
+  @objc public func videoPlay()
+  @objc public func videoPause()
+  @objc public func videoMute(_ mute: Swift.Bool)
+  @objc public var sldAction: Swift.String {
+    @objc get
+  }
+  @objc public func refreshMotionHintViewPosition()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(registerViews:clickViews:closeViews:) public func registerViews(_ containerView: UIKit.UIView? = nil, clickViews: [UIKit.UIView] = [], closeViews: [UIKit.UIView] = [])
+  #endif
+  @objc public func unregisterViews()
   @objc deinit
 }
 @objc(AdtalosListener) public protocol Listener : ObjectiveC.NSObjectProtocol {
@@ -206,7 +322,7 @@ import os
   @objc @_Concurrency.MainActor func mute(_ mute: Swift.Bool)
 }
 @objc(AdtalosConfiguration) final public class Configuration : ObjectiveC.NSObject, Swift.Sendable {
-  @objc public init(token: Swift.String = "", appToken: Swift.String = "", idfa: Swift.String = "", caids: [AdtalosAdKit.Caid] = [])
+  @objc public init(token: Swift.String = "", appToken: Swift.String = "", idfa: Swift.String = "", acquireIDFA: Swift.Bool = true, acquireIDFV: Swift.Bool = true, acquireUserAgent: Swift.Bool = true, acquireGeoInfo: Swift.Bool = true, acquireInstalledApps: Swift.Bool = true, enableLocalLog: Swift.Bool = true, caids: [AdtalosAdKit.Caid] = [])
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(AdtalosSDK) final public class SDK : ObjectiveC.NSObject {
@@ -236,6 +352,52 @@ infix operator >>> : BitwiseShiftPrecedence
   @objc deinit
   final public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc(AdtalosEvent) nonisolated public class AdtalosEvent : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var id: Foundation.UUID? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc @NSManaged nonisolated dynamic public var eventType: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var adToken: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var eventID: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var requestID: Swift.String? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc @NSManaged nonisolated dynamic public var timestamp: Swift.Int64 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged nonisolated dynamic public var reported: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<AdtalosAdKit.AdtalosEvent>
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
+  @objc deinit
+}
+extension AdtalosAdKit.AdtalosEvent : Swift.Identifiable {
+  public typealias ID = Foundation.UUID?
 }
 extension AdtalosAdKit.LossReason : Swift.Equatable {}
 extension AdtalosAdKit.LossReason : Swift.Hashable {}

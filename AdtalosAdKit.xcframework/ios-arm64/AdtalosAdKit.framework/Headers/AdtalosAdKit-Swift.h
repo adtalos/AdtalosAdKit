@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -306,7 +307,22 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+@class NSUUID;
 @class NSString;
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+SWIFT_CLASS_NAMED("AdtalosEvent")
+@interface AdtalosEvent : NSManagedObject
+@property (nonatomic, copy) NSUUID * _Nullable id;
+@property (nonatomic) int32_t eventType;
+@property (nonatomic, copy) NSString * _Nullable adToken;
+@property (nonatomic, copy) NSString * _Nullable eventID;
+@property (nonatomic, copy) NSString * _Nullable requestID;
+@property (nonatomic) int64_t timestamp;
+@property (nonatomic) BOOL reported;
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @protocol AdtalosVideoListener;
 @protocol AdtalosListener;
 enum AdtalosLossReason : NSInteger;
@@ -355,7 +371,7 @@ SWIFT_CLASS_NAMED("Caid")
 
 SWIFT_CLASS_NAMED("Configuration")
 @interface AdtalosConfiguration : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appToken:(NSString * _Nonnull)appToken idfa:(NSString * _Nonnull)idfa caids:(NSArray<AdtalosCaid *> * _Nonnull)caids OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appToken:(NSString * _Nonnull)appToken idfa:(NSString * _Nonnull)idfa acquireIDFA:(BOOL)acquireIDFA acquireIDFV:(BOOL)acquireIDFV acquireUserAgent:(BOOL)acquireUserAgent acquireGeoInfo:(BOOL)acquireGeoInfo acquireInstalledApps:(BOOL)acquireInstalledApps enableLocalLog:(BOOL)enableLocalLog caids:(NSArray<AdtalosCaid *> * _Nonnull)caids OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -402,6 +418,59 @@ typedef SWIFT_ENUM_NAMED(NSInteger, AdtalosLossReason, "LossReason", open) {
   AdtalosLossReasonOtherFilter = 1006,
 };
 
+@class AdtalosNativeResponse;
+SWIFT_CLASS_NAMED("NativeAd")
+@interface AdtalosNativeAd : AdtalosBaseAd
+@property (nonatomic, readonly, strong) AdtalosNativeResponse * _Nullable nativeResponse;
+- (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
+- (void)destroy;
+@end
+
+@class UIImage;
+@class AdtalosVideoMetadata;
+SWIFT_CLASS_NAMED("NativeResponse")
+@interface AdtalosNativeResponse : NSObject
+- (void)destroy;
+@property (nonatomic, readonly, copy) NSString * _Nonnull title;
+@property (nonatomic, readonly, copy) NSString * _Nonnull subTitle;
+@property (nonatomic, readonly, copy) NSString * _Nonnull desc;
+@property (nonatomic, readonly, strong) UIImage * _Nullable icon;
+@property (nonatomic, readonly, copy) NSString * _Nonnull iconURL;
+@property (nonatomic, readonly, strong) UIImage * _Nullable image;
+@property (nonatomic, readonly, copy) NSString * _Nonnull imageURL;
+@property (nonatomic, readonly, copy) NSArray<UIImage *> * _Nonnull imageList;
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull imageURLList;
+@property (nonatomic, readonly) NSInteger imageWidth;
+@property (nonatomic, readonly) NSInteger imageHeight;
+@property (nonatomic, readonly, strong) UIImage * _Nullable logo;
+@property (nonatomic, readonly, copy) NSString * _Nonnull logoURL;
+@property (nonatomic, readonly, copy) NSString * _Nonnull buttonText;
+@property (nonatomic, readonly) BOOL isDownloadAd;
+@property (nonatomic, readonly, copy) NSString * _Nonnull developer;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appBundle;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appName;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appVersion;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appDesc;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appDescURL;
+@property (nonatomic, readonly) int64_t appSize;
+@property (nonatomic, readonly, copy) NSString * _Nonnull privacyURL;
+@property (nonatomic, readonly, copy) NSString * _Nonnull permissionURL;
+@property (nonatomic, readonly) BOOL hasVideo;
+@property (nonatomic, readonly, copy) NSString * _Nonnull videoURL;
+@property (nonatomic, readonly, strong) UIView * _Nullable videoView;
+@property (nonatomic, readonly, strong) AdtalosVideoMetadata * _Nullable videoMetadata;
+- (void)videoPlay;
+- (void)videoPause;
+- (void)videoMute:(BOOL)mute;
+@property (nonatomic, readonly, copy) NSString * _Nonnull sldAction;
+/// 对外暴露的刷新摇一摇提示布局接口（由上层在布局变化后调用）
+- (void)refreshMotionHintViewPosition;
+- (void)registerViews:(UIView * _Nullable)containerView clickViews:(NSArray<UIView *> * _Nonnull)clickViews closeViews:(NSArray<UIView *> * _Nonnull)closeViews;
+- (void)unregisterViews;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 SWIFT_CLASS_NAMED("RewardVideoAd")
 @interface AdtalosRewardVideoAd : AdtalosViewControllerAd
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
@@ -433,7 +502,6 @@ SWIFT_CLASS_NAMED("SplashAd")
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class AdtalosVideoMetadata;
 SWIFT_PROTOCOL_NAMED("VideoController")
 @protocol AdtalosVideoController
 @property (nonatomic, strong) id <AdtalosVideoListener> _Nullable videoListener;
