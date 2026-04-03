@@ -27,6 +27,13 @@ import os
 @_hasMissingDesignatedInitializers @objc(AdtalosBaseAd) public class BaseAd : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc final public let unitID: Swift.String
   @objc public var autoRetry: Swift.Int
+  @_Concurrency.MainActor @objc public var adResponseEventID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @objc public var adResponseRequestID: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor @objc public func destroy()
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public var videoListener: (any AdtalosAdKit.VideoListener)? {
     @objc get
@@ -60,11 +67,13 @@ import os
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(AdtalosNativeAd) public class NativeAd : AdtalosAdKit.BaseAd, @unchecked Swift.Sendable {
-  @objc public var nativeResponse: AdtalosAdKit.NativeResponse? {
-    get
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @objc public var nativeResponse: AdtalosAdKit.NativeResponse? {
+    @objc get
   }
+  #endif
   @objc public init(unitID: Swift.String)
-  @_Concurrency.MainActor @objc public func destroy()
+  @_Concurrency.MainActor @objc override public func destroy()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(AdtalosNativeResponse) public class NativeResponse : ObjectiveC.NSObject {
@@ -163,6 +172,7 @@ import os
   @objc public var sldAction: Swift.String {
     @objc get
   }
+  @objc public func configureMotionHintView(scale: CoreFoundation.CGFloat, x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat)
   @objc public func refreshMotionHintViewPosition()
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(registerViews:clickViews:closeViews:) public func registerViews(_ containerView: UIKit.UIView? = nil, clickViews: [UIKit.UIView] = [], closeViews: [UIKit.UIView] = [])
@@ -243,7 +253,7 @@ import os
     @objc get
   }
   #endif
-  @_Concurrency.MainActor @objc public func destroy()
+  @_Concurrency.MainActor @objc override public func destroy()
   @_Concurrency.MainActor @objc public func pause()
   @_Concurrency.MainActor @objc public func resume()
   @objc deinit
@@ -399,6 +409,103 @@ infix operator >>> : BitwiseShiftPrecedence
 extension AdtalosAdKit.AdtalosEvent : Swift.Identifiable {
   public typealias ID = Foundation.UUID?
 }
+@_hasMissingDesignatedInitializers public class EventReporter {
+  public static func initialize()
+  public static func commit(eventType: Swift.Int32, eventID: Swift.String)
+  public static func commit(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String)
+  public static func commit(event: AdtalosAdKit.AdtalosEvent)
+  public static func apply(eventType: Swift.Int32, eventID: Swift.String)
+  public static func apply(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String)
+  public static func apply(event: AdtalosAdKit.AdtalosEvent)
+  public static func flush()
+  @objc deinit
+}
+public enum EventType : Swift.Int32 {
+  case initStart
+  case initEnd
+  case initEndFirstInstall
+  case initFailed
+  case initConfigStart
+  case initConfigSuccess
+  case oaidSuccess
+  case oaidFailed
+  case idfaSuccess
+  case idfaFailed
+  case adLoadStart
+  case adRequest
+  case adRequestSuccess
+  case adRequestFailed
+  case adShow
+  case adRender
+  case adClose
+  case adRewarded
+  case adLoadedFromCache
+  case adLoadedFromCacheExpiration
+  case adLoadedFromCacheMiss
+  case adLoadedFromCacheMissPreloads
+  case adLoadedFromCacheFailed
+  case adLoadToCacheSuccess
+  case adLoadToCacheFailed
+  case adViewDestroy
+  case adViewAttached
+  case adViewDetached
+  case adViewVisibleTrue
+  case adViewVisibleFalse
+  case adViewSaveState
+  case adViewRestoreState
+  case adWebLoadStart
+  case adWebLoadPageFinish
+  case adWebLoadError
+  case adWebLoadProgressFinish
+  case interactShakeTrigger
+  case interactTwistTrigger
+  case interactSlideTrigger
+  case clickStandard
+  case clickFake
+  case impressionListenerAdd
+  case impressionListenerRemove
+  case impressionStart
+  case impressionSuccess
+  case impressionInvalid
+  case impressionInvalidRendered
+  case impressionInvalidViewRef
+  case impressionInvalidAttachWindow
+  case impressionInvalidShown
+  case impressionInvalidAlpha
+  case impressionInvalidRect
+  case impressionInvalidSize
+  case impressionInvalidRatio
+  case adNativeRenderStart
+  case adNativeRenderFinish
+  case adNativeRenderFail
+  case adNativeResourceStart
+  case adNativeResourceSuccess
+  case adNativeResourceFail
+  case adNativeResourceDataRemote
+  case adNativeResourceDataDiskCache
+  case adNativeResourceDataMemoryCache
+  case adNativeRenderEventExecute
+  case adNativeRenderAnimationStart
+  case adNativeRenderAnimationEnd
+  case takuLoad
+  case takuShow
+  case takuDestroy
+  case gromoreInit
+  case gromoreLoad
+  case gromoreShow
+  case gromoreDestroy
+  case tobidInit
+  case tobidLoad
+  case tobidShow
+  case tobidDestroy
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int32)
+  #endif
+  public typealias RawValue = Swift.Int32
+  public var rawValue: Swift.Int32 {
+    get
+  }
+}
 extension AdtalosAdKit.LossReason : Swift.Equatable {}
 extension AdtalosAdKit.LossReason : Swift.Hashable {}
 extension AdtalosAdKit.LossReason : Swift.RawRepresentable {}
@@ -408,3 +515,6 @@ extension AdtalosAdKit.VideoMetadata.PlayType : Swift.RawRepresentable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.Equatable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.Hashable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.RawRepresentable {}
+extension AdtalosAdKit.EventType : Swift.Equatable {}
+extension AdtalosAdKit.EventType : Swift.Hashable {}
+extension AdtalosAdKit.EventType : Swift.RawRepresentable {}

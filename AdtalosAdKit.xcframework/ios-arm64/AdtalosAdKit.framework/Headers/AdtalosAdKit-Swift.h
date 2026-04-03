@@ -330,6 +330,10 @@ SWIFT_CLASS_NAMED("BaseAd")
 @interface AdtalosBaseAd : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull unitID;
 @property (nonatomic) NSInteger autoRetry;
+@property (nonatomic, readonly, copy) NSString * _Nonnull adResponseEventID;
+@property (nonatomic, readonly, copy) NSString * _Nonnull adResponseRequestID;
+/// 释放广告相关资源。具体逻辑由子类实现；基类默认为空。
+- (void)destroy;
 @property (nonatomic, strong) id <AdtalosVideoListener> _Nullable videoListener;
 @property (nonatomic, strong) id <AdtalosListener> _Nullable listener;
 @property (nonatomic, readonly) BOOL isLoaded;
@@ -463,6 +467,14 @@ SWIFT_CLASS_NAMED("NativeResponse")
 - (void)videoPause;
 - (void)videoMute:(BOOL)mute;
 @property (nonatomic, readonly, copy) NSString * _Nonnull sldAction;
+/// 自定义 MotionHintView 的缩放与位置（需在 registerViews 之后调用）
+/// \param scale 缩放比例（同时作用于图片和文字），<= 0 表示不修改缩放
+///
+/// \param x MotionHintView 在容器视图中的 x 坐标
+///
+/// \param y MotionHintView 在容器视图中的 y 坐标
+///
+- (void)configureMotionHintViewWithScale:(CGFloat)scale x:(CGFloat)x y:(CGFloat)y;
 /// 对外暴露的刷新摇一摇提示布局接口（由上层在布局变化后调用）
 - (void)refreshMotionHintViewPosition;
 - (void)registerViews:(UIView * _Nullable)containerView clickViews:(NSArray<UIView *> * _Nonnull)clickViews closeViews:(NSArray<UIView *> * _Nonnull)closeViews;
