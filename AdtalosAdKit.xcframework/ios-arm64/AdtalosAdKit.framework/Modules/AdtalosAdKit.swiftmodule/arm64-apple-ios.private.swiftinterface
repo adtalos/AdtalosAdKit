@@ -332,7 +332,7 @@ import os
   @objc @_Concurrency.MainActor func mute(_ mute: Swift.Bool)
 }
 @objc(AdtalosConfiguration) final public class Configuration : ObjectiveC.NSObject, Swift.Sendable {
-  @objc public init(token: Swift.String = "", appToken: Swift.String = "", idfa: Swift.String = "", acquireIDFA: Swift.Bool = true, acquireIDFV: Swift.Bool = true, acquireUserAgent: Swift.Bool = true, acquireGeoInfo: Swift.Bool = true, acquireInstalledApps: Swift.Bool = true, enableLocalLog: Swift.Bool = true, caids: [AdtalosAdKit.Caid] = [])
+  @objc public init(token: Swift.String = "", appToken: Swift.String = "", idfa: Swift.String = "", acquireIDFA: Swift.Bool = true, acquireIDFV: Swift.Bool = true, acquireUserAgent: Swift.Bool = true, acquireGeoInfo: Swift.Bool = true, acquireInstalledApps: Swift.Bool = true, enableLocalLog: Swift.Bool = true, joinKey: AdtalosAdKit.JoinKey = JoinKey(), joinKey2: AdtalosAdKit.JoinKey = JoinKey())
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(AdtalosSDK) final public class SDK : ObjectiveC.NSObject {
@@ -352,10 +352,10 @@ import os
   @objc deinit
 }
 infix operator >>> : BitwiseShiftPrecedence
-@objc(AdtalosCaid) final public class Caid : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
-  @objc final public let caid: Swift.String
+@objc(AdtalosJoinKey) final public class JoinKey : ObjectiveC.NSObject, Swift.Codable, Swift.Sendable {
+  @objc final public let joinKey: Swift.String
   @objc final public let version: Swift.String
-  @objc public init(caid: Swift.String = "", version: Swift.String = "")
+  @objc public init(joinKey: Swift.String = "", version: Swift.String = "")
   #if compiler(>=5.3) && $NonescapableTypes
   @objc override final public func isEqual(_ object: Any?) -> Swift.Bool
   #endif

@@ -363,19 +363,10 @@ SWIFT_CLASS_NAMED("BannerAd")
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID;
 @end
 
-SWIFT_CLASS_NAMED("Caid")
-@interface AdtalosCaid : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull caid;
-@property (nonatomic, readonly, copy) NSString * _Nonnull version;
-- (nonnull instancetype)initWithCaid:(NSString * _Nonnull)caid version:(NSString * _Nonnull)version OBJC_DESIGNATED_INITIALIZER;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
+@class AdtalosJoinKey;
 SWIFT_CLASS_NAMED("Configuration")
 @interface AdtalosConfiguration : NSObject
-- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appToken:(NSString * _Nonnull)appToken idfa:(NSString * _Nonnull)idfa acquireIDFA:(BOOL)acquireIDFA acquireIDFV:(BOOL)acquireIDFV acquireUserAgent:(BOOL)acquireUserAgent acquireGeoInfo:(BOOL)acquireGeoInfo acquireInstalledApps:(BOOL)acquireInstalledApps enableLocalLog:(BOOL)enableLocalLog caids:(NSArray<AdtalosCaid *> * _Nonnull)caids OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithToken:(NSString * _Nonnull)token appToken:(NSString * _Nonnull)appToken idfa:(NSString * _Nonnull)idfa acquireIDFA:(BOOL)acquireIDFA acquireIDFV:(BOOL)acquireIDFV acquireUserAgent:(BOOL)acquireUserAgent acquireGeoInfo:(BOOL)acquireGeoInfo acquireInstalledApps:(BOOL)acquireInstalledApps enableLocalLog:(BOOL)enableLocalLog joinKey:(AdtalosJoinKey * _Nonnull)joinKey joinKey2:(AdtalosJoinKey * _Nonnull)joinKey2 OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -398,6 +389,16 @@ SWIFT_CLASS_NAMED("ViewControllerAd")
 SWIFT_CLASS_NAMED("InterstitialAd")
 @interface AdtalosInterstitialAd : AdtalosViewControllerAd
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS_NAMED("JoinKey")
+@interface AdtalosJoinKey : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull joinKey;
+@property (nonatomic, readonly, copy) NSString * _Nonnull version;
+- (nonnull instancetype)initWithJoinKey:(NSString * _Nonnull)joinKey version:(NSString * _Nonnull)version OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 SWIFT_PROTOCOL_NAMED("Listener")

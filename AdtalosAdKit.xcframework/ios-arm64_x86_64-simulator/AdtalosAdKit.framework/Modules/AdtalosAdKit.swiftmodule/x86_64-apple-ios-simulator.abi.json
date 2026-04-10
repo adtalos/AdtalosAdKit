@@ -7893,7 +7893,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:caids:)",
+            "printedName": "init(token:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:joinKey:joinKey2:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7966,25 +7966,24 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[AdtalosAdKit.Caid]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Caid",
-                    "printedName": "AdtalosAdKit.Caid",
-                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
-                  }
-                ],
+                "name": "JoinKey",
+                "printedName": "AdtalosAdKit.JoinKey",
                 "hasDefaultArg": true,
-                "usr": "s:Sa"
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JoinKey",
+                "printedName": "AdtalosAdKit.JoinKey",
+                "hasDefaultArg": true,
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosConfiguration(im)initWithToken:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:caids:",
-            "mangledName": "$s12AdtalosAdKit13ConfigurationC5token8appToken4idfa11acquireIDFA0I4IDFV0I9UserAgent0I7GeoInfo0I13InstalledApps14enableLocalLog5caidsACSS_S2SS6bSayAA4CaidCGtcfc",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosConfiguration(im)initWithToken:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:joinKey:joinKey2:",
+            "mangledName": "$s12AdtalosAdKit13ConfigurationC5token8appToken4idfa11acquireIDFA0I4IDFV0I9UserAgent0I7GeoInfo0I13InstalledApps14enableLocalLog7joinKey0U4Key2ACSS_S2SS6bAA04JoinV0CAPtcfc",
             "moduleName": "AdtalosAdKit",
-            "objc_name": "initWithToken:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:caids:",
+            "objc_name": "initWithToken:appToken:idfa:acquireIDFA:acquireIDFV:acquireUserAgent:acquireGeoInfo:acquireInstalledApps:enableLocalLog:joinKey:joinKey2:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -8705,6 +8704,76 @@
       },
       {
         "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8715,13 +8784,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Caid",
-        "printedName": "Caid",
+        "name": "JoinKey",
+        "printedName": "JoinKey",
         "children": [
           {
             "kind": "Var",
-            "name": "caid",
-            "printedName": "caid",
+            "name": "joinKey",
+            "printedName": "joinKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8731,8 +8800,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(py)caid",
-            "mangledName": "$s12AdtalosAdKit4CaidC4caidSSvp",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(py)joinKey",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC04joinE0SSvp",
             "moduleName": "AdtalosAdKit",
             "declAttributes": [
               "Final",
@@ -8756,8 +8825,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(im)caid",
-                "mangledName": "$s12AdtalosAdKit4CaidC4caidSSvg",
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(im)joinKey",
+                "mangledName": "$s12AdtalosAdKit7JoinKeyC04joinE0SSvg",
                 "moduleName": "AdtalosAdKit",
                 "implicit": true,
                 "declAttributes": [
@@ -8781,8 +8850,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(py)version",
-            "mangledName": "$s12AdtalosAdKit4CaidC7versionSSvp",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(py)version",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC7versionSSvp",
             "moduleName": "AdtalosAdKit",
             "declAttributes": [
               "Final",
@@ -8806,8 +8875,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(im)version",
-                "mangledName": "$s12AdtalosAdKit4CaidC7versionSSvg",
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(im)version",
+                "mangledName": "$s12AdtalosAdKit7JoinKeyC7versionSSvg",
                 "moduleName": "AdtalosAdKit",
                 "implicit": true,
                 "declAttributes": [
@@ -8821,13 +8890,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(caid:version:)",
+            "printedName": "init(joinKey:version:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Caid",
-                "printedName": "AdtalosAdKit.Caid",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
+                "name": "JoinKey",
+                "printedName": "AdtalosAdKit.JoinKey",
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
               },
               {
                 "kind": "TypeNominal",
@@ -8845,10 +8914,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(im)initWithCaid:version:",
-            "mangledName": "$s12AdtalosAdKit4CaidC4caid7versionACSS_SStcfc",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(im)initWithJoinKey:version:",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC04joinE07versionACSS_SStcfc",
             "moduleName": "AdtalosAdKit",
-            "objc_name": "initWithCaid:version:",
+            "objc_name": "initWithJoinKey:version:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -8881,8 +8950,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(im)isEqual:",
-            "mangledName": "$s12AdtalosAdKit4CaidC7isEqualySbypSgF",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(im)isEqual:",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC7isEqualySbypSgF",
             "moduleName": "AdtalosAdKit",
             "overriding": true,
             "objc_name": "isEqual:",
@@ -8901,14 +8970,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Caid",
-                "printedName": "AdtalosAdKit.Caid",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
+                "name": "JoinKey",
+                "printedName": "AdtalosAdKit.JoinKey",
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid(im)init",
-            "mangledName": "$s12AdtalosAdKit4CaidCACycfc",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey(im)init",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyCACycfc",
             "moduleName": "AdtalosAdKit",
             "overriding": true,
             "implicit": true,
@@ -8927,9 +8996,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Caid",
-                "printedName": "AdtalosAdKit.Caid",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid"
+                "name": "JoinKey",
+                "printedName": "AdtalosAdKit.JoinKey",
+                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
               },
               {
                 "kind": "TypeNominal",
@@ -8939,8 +9008,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AdtalosAdKit4CaidC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12AdtalosAdKit4CaidC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12AdtalosAdKit7JoinKeyC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC4fromACs7Decoder_p_tKcfc",
             "moduleName": "AdtalosAdKit",
             "implicit": true,
             "throwing": true,
@@ -8964,8 +9033,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AdtalosAdKit4CaidC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12AdtalosAdKit4CaidC6encode2toys7Encoder_p_tKF",
+            "usr": "s:12AdtalosAdKit7JoinKeyC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12AdtalosAdKit7JoinKeyC6encode2toys7Encoder_p_tKF",
             "moduleName": "AdtalosAdKit",
             "implicit": true,
             "declAttributes": [
@@ -8976,10 +9045,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosCaid",
-        "mangledName": "$s12AdtalosAdKit4CaidC",
+        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey",
+        "mangledName": "$s12AdtalosAdKit7JoinKeyC",
         "moduleName": "AdtalosAdKit",
-        "objc_name": "AdtalosCaid",
+        "objc_name": "AdtalosJoinKey",
         "declAttributes": [
           "Final",
           "AccessControl",
@@ -9082,76 +9151,6 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration",
-        "printedName": "SystemConfiguration",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit",
-        "declAttributes": [
-          "Preconcurrency",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdtalosAdKit"
       },
       {
         "kind": "Import",
@@ -15060,42 +15059,35 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 568,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 595,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 585,
+      "offset": 618,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "BooleanLiteral",
-      "offset": 613,
+      "offset": 646,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 678,
+      "offset": 676,
       "length": 4,
       "value": "true"
     },
@@ -15109,7 +15101,7 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 744,
       "length": 4,
       "value": "true"
     },
@@ -15122,10 +15114,10 @@
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Configuration.swift",
-      "kind": "Array",
-      "offset": 809,
-      "length": 2,
-      "value": "[]"
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/CrashReporter.swift",
@@ -15426,7 +15418,7 @@
       "kind": "StringLiteral",
       "offset": 3738,
       "length": 7,
-      "value": "\"1.0.2\""
+      "value": "\"1.0.3\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
@@ -15527,20 +15519,6 @@
       "value": "0x9E3779B9"
     },
     {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/Caid.swift",
-      "kind": "StringLiteral",
-      "offset": 270,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/Caid.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
       "offset": 292,
@@ -15606,560 +15584,560 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 4057,
+      "offset": 4351,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4463,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4318,
+      "offset": 4612,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4378,
+      "offset": 4672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4447,
+      "offset": 4741,
       "length": 6,
       "value": "\"wifi\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4611,
+      "offset": 4905,
       "length": 6,
       "value": "\"wifi\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5126,
+      "offset": 5420,
       "length": 14,
       "value": "\"cell_unknown\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "Array",
-      "offset": 5869,
+      "offset": 6163,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5936,
+      "offset": 6230,
       "length": 4,
       "value": "\"2g\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6002,
+      "offset": 6296,
       "length": 4,
       "value": "\"3g\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6068,
+      "offset": 6362,
       "length": 4,
       "value": "\"4g\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6134,
+      "offset": 6428,
       "length": 4,
       "value": "\"5g\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6161,
+      "offset": 6455,
       "length": 14,
       "value": "\"cell_unknown\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6193,
+      "offset": 6487,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6380,
+      "offset": 6674,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6423,
+      "offset": 6717,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6464,
+      "offset": 6758,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6644,
+      "offset": 6938,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6694,
+      "offset": 6988,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6831,
+      "offset": 7125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 6877,
+      "offset": 7171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 7387,
+      "offset": 7681,
       "length": 12,
       "value": "\"hw.machine\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 7476,
+      "offset": 7770,
       "length": 10,
       "value": "\"hw.model\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 7915,
+      "offset": 8209,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8021,
+      "offset": 8315,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8432,
+      "offset": 8726,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8454,
+      "offset": 8748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8484,
+      "offset": 8778,
       "length": 5,
       "value": "\"460\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8569,
+      "offset": 8863,
       "length": 4,
       "value": "\"00\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8575,
+      "offset": 8869,
       "length": 4,
       "value": "\"02\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8581,
+      "offset": 8875,
       "length": 4,
       "value": "\"07\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8587,
+      "offset": 8881,
       "length": 4,
       "value": "\"08\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8617,
+      "offset": 8911,
       "length": 14,
       "value": "\"中国移动\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8647,
+      "offset": 8941,
       "length": 4,
       "value": "\"01\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8947,
       "length": 4,
       "value": "\"06\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8659,
+      "offset": 8953,
       "length": 4,
       "value": "\"09\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8689,
+      "offset": 8983,
       "length": 14,
       "value": "\"中国联通\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8719,
+      "offset": 9013,
       "length": 4,
       "value": "\"03\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8725,
+      "offset": 9019,
       "length": 4,
       "value": "\"05\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8731,
+      "offset": 9025,
       "length": 4,
       "value": "\"11\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8761,
+      "offset": 9055,
       "length": 14,
       "value": "\"中国电信\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8791,
+      "offset": 9085,
       "length": 4,
       "value": "\"04\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8821,
+      "offset": 9115,
       "length": 14,
       "value": "\"中国卫通\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8851,
+      "offset": 9145,
       "length": 4,
       "value": "\"20\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 8881,
+      "offset": 9175,
       "length": 14,
       "value": "\"中国铁通\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9011,
+      "offset": 9305,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9506,
+      "offset": 9800,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9513,
+      "offset": 9807,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9580,
+      "offset": 9874,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9795,
+      "offset": 10089,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9804,
+      "offset": 10098,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9891,
+      "offset": 10185,
       "length": 13,
       "value": "\"\/var\/mobile\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 9930,
+      "offset": 10224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 9947,
+      "offset": 10241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10019,
+      "offset": 10313,
       "length": 11,
       "value": "\"%ld.%09ld\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10130,
+      "offset": 10424,
       "length": 94,
       "value": "\"L3Zhci9tb2JpbGUvTGlicmFyeS9Vc2VyQ29uZmlndXJhdGlvblByb2ZpbGVzL1B1YmxpY0luZm8vTUNNZXRhLnBsaXN0\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10475,
+      "offset": 10769,
       "length": 6,
       "value": "\"%.6f\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10536,
+      "offset": 10830,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10763,
+      "offset": 11057,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 10768,
+      "offset": 11062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10785,
+      "offset": 11079,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10821,
+      "offset": 11115,
       "length": 5,
       "value": "\"%ld\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10951,
+      "offset": 11245,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10975,
+      "offset": 11269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 10995,
+      "offset": 11289,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11012,
+      "offset": 11306,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11031,
+      "offset": 11325,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11051,
+      "offset": 11345,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11225,
+      "offset": 11519,
       "length": 22,
       "value": "\"com.apple.os.update-\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11262,
+      "offset": 11556,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 11276,
+      "offset": 11570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11479,
+      "offset": 11773,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 11706,
+      "offset": 12000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 11712,
+      "offset": 12006,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11745,
+      "offset": 12039,
       "length": 7,
       "value": "\"%d.%d\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11816,
+      "offset": 12110,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 11910,
+      "offset": 12204,
       "length": 18,
       "value": "\"L3Zhci9tb2JpbGU=\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 11982,
+      "offset": 12276,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 12024,
+      "offset": 12318,
       "length": 7,
       "value": "\"%d.%d\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 12134,
+      "offset": 12428,
       "length": 5,
       "value": "\"0.0\""
     },
@@ -16183,6 +16161,20 @@
       "offset": 245,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/JoinKey.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/JoinKey.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Env\/ScreenInfo.swift",
@@ -16964,308 +16956,329 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 218,
-      "length": 7,
-      "value": "\"caids\""
+      "offset": 220,
+      "length": 10,
+      "value": "\"join_key\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 242,
+      "offset": 257,
+      "length": 18,
+      "value": "\"join_key_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 11,
+      "value": "\"join_key2\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 19,
+      "value": "\"join_key2_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
       "length": 6,
       "value": "\"idfa\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 394,
       "length": 6,
       "value": "\"idfv\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 417,
       "length": 6,
       "value": "\"paid\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 312,
+      "offset": 441,
       "length": 7,
       "value": "\"model\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 465,
       "length": 6,
       "value": "\"make\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 360,
+      "offset": 489,
       "length": 7,
       "value": "\"brand\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 513,
       "length": 6,
       "value": "\"plmn\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 542,
       "length": 13,
       "value": "\"raw_carrier\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 453,
+      "offset": 582,
       "length": 17,
       "value": "\"connection_type\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 620,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 645,
       "length": 4,
       "value": "\"os\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 671,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 704,
       "length": 11,
       "value": "\"boot_mark\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 609,
+      "offset": 738,
       "length": 13,
       "value": "\"update_mark\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 775,
       "length": 14,
       "value": "\"startup_time\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 812,
       "length": 13,
       "value": "\"update_time\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 846,
       "length": 11,
       "value": "\"init_time\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 748,
+      "offset": 877,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 781,
+      "offset": 910,
       "length": 14,
       "value": "\"memory_total\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 946,
       "length": 12,
       "value": "\"disk_total\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 986,
       "length": 18,
       "value": "\"hardware_machine\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 1030,
       "length": 16,
       "value": "\"hardware_model\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1072,
       "length": 17,
       "value": "\"device_name_md5\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 981,
+      "offset": 1110,
       "length": 11,
       "value": "\"time_zone\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1139,
       "length": 8,
       "value": "\"mnt_id\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1171,
       "length": 14,
       "value": "\"geo_latitude\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1210,
       "length": 15,
       "value": "\"geo_longitude\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1120,
+      "offset": 1249,
       "length": 14,
       "value": "\"geo_accuracy\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1154,
+      "offset": 1283,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1315,
       "length": 12,
       "value": "\"app_bundle\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1350,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
+      "offset": 1386,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1417,
       "length": 7,
       "value": "\"codes\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
+      "offset": 1448,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 1485,
       "length": 14,
       "value": "\"screen_width\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1524,
       "length": 15,
       "value": "\"screen_height\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1436,
+      "offset": 1565,
       "length": 17,
       "value": "\"screen_px_ratio\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1607,
       "length": 16,
       "value": "\"is_self_render\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 1660,
       "length": 31,
       "value": "\"https:\/\/api.mobrtb.com\/ad\/sdk\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 1619,
+      "offset": 1748,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1633,
+      "offset": 1762,
       "length": 24,
       "value": "\"unitID cannot be empty\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 1721,
+      "offset": 1850,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1864,
       "length": 22,
       "value": "\"no valid device info\""
     },
