@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -307,22 +306,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class NSUUID;
 @class NSString;
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-SWIFT_CLASS_NAMED("AdtalosEvent")
-@interface AdtalosEvent : NSManagedObject
-@property (nonatomic, copy) NSUUID * _Nullable id;
-@property (nonatomic) int32_t eventType;
-@property (nonatomic, copy) NSString * _Nullable adToken;
-@property (nonatomic, copy) NSString * _Nullable eventID;
-@property (nonatomic, copy) NSString * _Nullable requestID;
-@property (nonatomic) int64_t timestamp;
-@property (nonatomic) BOOL reported;
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @protocol AdtalosVideoListener;
 @protocol AdtalosListener;
 enum AdtalosLossReason : NSInteger;
@@ -408,6 +392,8 @@ SWIFT_PROTOCOL_NAMED("Listener")
 - (void)onLoaded;
 - (void)onFailedToLoad:(NSError * _Nonnull)error;
 - (void)onRendered;
+/// 广告视图高度变化回调。isFinal=true 表示该高度已在稳定窗口内保持不变。
+- (void)onAdViewHeightChanged:(CGFloat)height isFinal:(BOOL)isFinal;
 - (void)onShown;
 - (void)onClicked;
 - (void)onLeftApplication;
@@ -865,7 +851,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -891,22 +876,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
-@class NSUUID;
 @class NSString;
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-SWIFT_CLASS_NAMED("AdtalosEvent")
-@interface AdtalosEvent : NSManagedObject
-@property (nonatomic, copy) NSUUID * _Nullable id;
-@property (nonatomic) int32_t eventType;
-@property (nonatomic, copy) NSString * _Nullable adToken;
-@property (nonatomic, copy) NSString * _Nullable eventID;
-@property (nonatomic, copy) NSString * _Nullable requestID;
-@property (nonatomic) int64_t timestamp;
-@property (nonatomic) BOOL reported;
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @protocol AdtalosVideoListener;
 @protocol AdtalosListener;
 enum AdtalosLossReason : NSInteger;
@@ -992,6 +962,8 @@ SWIFT_PROTOCOL_NAMED("Listener")
 - (void)onLoaded;
 - (void)onFailedToLoad:(NSError * _Nonnull)error;
 - (void)onRendered;
+/// 广告视图高度变化回调。isFinal=true 表示该高度已在稳定窗口内保持不变。
+- (void)onAdViewHeightChanged:(CGFloat)height isFinal:(BOOL)isFinal;
 - (void)onShown;
 - (void)onClicked;
 - (void)onLeftApplication;

@@ -3062,6 +3062,44 @@
           },
           {
             "kind": "Function",
+            "name": "onAdViewHeightChanged",
+            "printedName": "onAdViewHeightChanged(_:isFinal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKit@objc(pl)AdtalosListener(im)onAdViewHeightChanged:isFinal:",
+            "mangledName": "$s12AdtalosAdKit8ListenerP02onB17ViewHeightChanged_7isFinaly12CoreGraphics7CGFloatV_SbtF",
+            "moduleName": "AdtalosAdKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdtalosAdKit.Listener>",
+            "sugared_genericSig": "<Self where Self : AdtalosAdKit.Listener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onShown",
             "printedName": "onShown()",
             "children": [
@@ -9187,873 +9225,6 @@
         "moduleName": "AdtalosAdKit"
       },
       {
-        "kind": "TypeDecl",
-        "name": "AdtalosEvent",
-        "printedName": "AdtalosEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.UUID?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)id",
-            "mangledName": "$s12AdtalosAdKit0A5EventC2id10Foundation4UUIDVSgvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.UUID?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UUID",
-                        "printedName": "Foundation.UUID",
-                        "usr": "s:10Foundation4UUIDV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)id",
-                "mangledName": "$s12AdtalosAdKit0A5EventC2id10Foundation4UUIDVSgvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.UUID?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UUID",
-                        "printedName": "Foundation.UUID",
-                        "usr": "s:10Foundation4UUIDV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setId:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC2id10Foundation4UUIDVSgvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "eventType",
-            "printedName": "eventType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)eventType",
-            "mangledName": "$s12AdtalosAdKit0A5EventC9eventTypes5Int32Vvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int32",
-                    "printedName": "Swift.Int32",
-                    "usr": "s:s5Int32V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)eventType",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9eventTypes5Int32Vvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int32",
-                    "printedName": "Swift.Int32",
-                    "usr": "s:s5Int32V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setEventType:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9eventTypes5Int32Vvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adToken",
-            "printedName": "adToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)adToken",
-            "mangledName": "$s12AdtalosAdKit0A5EventC7adTokenSSSgvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)adToken",
-                "mangledName": "$s12AdtalosAdKit0A5EventC7adTokenSSSgvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setAdToken:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC7adTokenSSSgvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "eventID",
-            "printedName": "eventID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)eventID",
-            "mangledName": "$s12AdtalosAdKit0A5EventC7eventIDSSSgvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)eventID",
-                "mangledName": "$s12AdtalosAdKit0A5EventC7eventIDSSSgvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setEventID:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC7eventIDSSSgvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "requestID",
-            "printedName": "requestID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)requestID",
-            "mangledName": "$s12AdtalosAdKit0A5EventC9requestIDSSSgvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)requestID",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9requestIDSSSgvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setRequestID:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9requestIDSSSgvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "timestamp",
-            "printedName": "timestamp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)timestamp",
-            "mangledName": "$s12AdtalosAdKit0A5EventC9timestamps5Int64Vvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)timestamp",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9timestamps5Int64Vvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setTimestamp:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC9timestamps5Int64Vvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "reported",
-            "printedName": "reported",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(py)reported",
-            "mangledName": "$s12AdtalosAdKit0A5EventC8reportedSbvp",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "Dynamic",
-              "Nonisolated",
-              "AccessControl",
-              "NSManaged",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)reported",
-                "mangledName": "$s12AdtalosAdKit0A5EventC8reportedSbvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)setReported:",
-                "mangledName": "$s12AdtalosAdKit0A5EventC8reportedSbvs",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "fetchRequest",
-            "printedName": "fetchRequest()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NSFetchRequest",
-                "printedName": "CoreData.NSFetchRequest<AdtalosAdKit.AdtalosEvent>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdtalosEvent",
-                    "printedName": "AdtalosAdKit.AdtalosEvent",
-                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent"
-                  }
-                ],
-                "usr": "c:objc(cs)NSFetchRequest"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AdtalosAdKit0A5EventC12fetchRequestSo07NSFetchF0CyACGyFZ",
-            "mangledName": "$s12AdtalosAdKit0A5EventC12fetchRequestSo07NSFetchF0CyACGyFZ",
-            "moduleName": "AdtalosAdKit",
-            "static": true,
-            "declAttributes": [
-              "AccessControl",
-              "NonObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(entity:insertInto:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdtalosEvent",
-                "printedName": "AdtalosAdKit.AdtalosEvent",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSEntityDescription",
-                "printedName": "CoreData.NSEntityDescription",
-                "usr": "c:objc(cs)NSEntityDescription"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreData.NSManagedObjectContext?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSManagedObjectContext",
-                    "printedName": "CoreData.NSManagedObjectContext",
-                    "usr": "c:objc(cs)NSManagedObjectContext"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent(im)initWithEntity:insertIntoManagedObjectContext:",
-            "mangledName": "$s12AdtalosAdKit0A5EventC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
-            "moduleName": "AdtalosAdKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Nonisolated",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent",
-        "mangledName": "$s12AdtalosAdKit0A5EventC",
-        "moduleName": "AdtalosAdKit",
-        "objc_name": "AdtalosEvent",
-        "declAttributes": [
-          "Nonisolated",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSManagedObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "CoreData.NSManagedObject",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ID",
-                "printedName": "ID",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.UUID?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UUID",
-                        "printedName": "Foundation.UUID",
-                        "usr": "s:10Foundation4UUIDV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
@@ -10181,34 +9352,6 @@
           },
           {
             "kind": "Function",
-            "name": "commit",
-            "printedName": "commit(event:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdtalosEvent",
-                "printedName": "AdtalosAdKit.AdtalosEvent",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AdtalosAdKit13EventReporterC6commit5eventyAA0aD0C_tFZ",
-            "mangledName": "$s12AdtalosAdKit13EventReporterC6commit5eventyAA0aD0C_tFZ",
-            "moduleName": "AdtalosAdKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "apply",
             "printedName": "apply(eventType:eventID:)",
             "children": [
@@ -10280,34 +9423,6 @@
             "declKind": "Func",
             "usr": "s:12AdtalosAdKit13EventReporterC5apply9eventType7adToken0G2ID07requestK0ys5Int32V_S3StFZ",
             "mangledName": "$s12AdtalosAdKit13EventReporterC5apply9eventType7adToken0G2ID07requestK0ys5Int32V_S3StFZ",
-            "moduleName": "AdtalosAdKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "apply",
-            "printedName": "apply(event:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdtalosEvent",
-                "printedName": "AdtalosAdKit.AdtalosEvent",
-                "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosEvent"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AdtalosAdKit13EventReporterC5apply5eventyAA0aD0C_tFZ",
-            "mangledName": "$s12AdtalosAdKit13EventReporterC5apply5eventyAA0aD0C_tFZ",
             "moduleName": "AdtalosAdKit",
             "static": true,
             "declAttributes": [
@@ -10393,3031 +9508,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "EventType",
-        "printedName": "EventType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "initStart",
-            "printedName": "initStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9initStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9initStartyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "initEnd",
-            "printedName": "initEnd",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO7initEndyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO7initEndyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "initEndFirstInstall",
-            "printedName": "initEndFirstInstall",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO19initEndFirstInstallyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO19initEndFirstInstallyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "initFailed",
-            "printedName": "initFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO10initFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO10initFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "initConfigStart",
-            "printedName": "initConfigStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO15initConfigStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO15initConfigStartyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "initConfigSuccess",
-            "printedName": "initConfigSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO17initConfigSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO17initConfigSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "oaidSuccess",
-            "printedName": "oaidSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11oaidSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11oaidSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "oaidFailed",
-            "printedName": "oaidFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO10oaidFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO10oaidFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "idfaSuccess",
-            "printedName": "idfaSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11idfaSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11idfaSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "idfaFailed",
-            "printedName": "idfaFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO10idfaFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO10idfaFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadStart",
-            "printedName": "adLoadStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11adLoadStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11adLoadStartyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adRequest",
-            "printedName": "adRequest",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9adRequestyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9adRequestyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adRequestSuccess",
-            "printedName": "adRequestSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO16adRequestSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO16adRequestSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adRequestFailed",
-            "printedName": "adRequestFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO15adRequestFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO15adRequestFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adShow",
-            "printedName": "adShow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO6adShowyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO6adShowyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adRender",
-            "printedName": "adRender",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO8adRenderyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO8adRenderyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adClose",
-            "printedName": "adClose",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO7adCloseyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO7adCloseyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adRewarded",
-            "printedName": "adRewarded",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO10adRewardedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO10adRewardedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadedFromCache",
-            "printedName": "adLoadedFromCache",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO17adLoadedFromCacheyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO17adLoadedFromCacheyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadedFromCacheExpiration",
-            "printedName": "adLoadedFromCacheExpiration",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO27adLoadedFromCacheExpirationyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO27adLoadedFromCacheExpirationyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadedFromCacheMiss",
-            "printedName": "adLoadedFromCacheMiss",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO21adLoadedFromCacheMissyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO21adLoadedFromCacheMissyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadedFromCacheMissPreloads",
-            "printedName": "adLoadedFromCacheMissPreloads",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO29adLoadedFromCacheMissPreloadsyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO29adLoadedFromCacheMissPreloadsyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadedFromCacheFailed",
-            "printedName": "adLoadedFromCacheFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO23adLoadedFromCacheFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO23adLoadedFromCacheFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadToCacheSuccess",
-            "printedName": "adLoadToCacheSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20adLoadToCacheSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20adLoadToCacheSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adLoadToCacheFailed",
-            "printedName": "adLoadToCacheFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO19adLoadToCacheFailedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO19adLoadToCacheFailedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewDestroy",
-            "printedName": "adViewDestroy",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO13adViewDestroyyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO13adViewDestroyyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adViewAttached",
-            "printedName": "adViewAttached",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO14adViewAttachedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO14adViewAttachedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewDetached",
-            "printedName": "adViewDetached",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO14adViewDetachedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO14adViewDetachedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewVisibleTrue",
-            "printedName": "adViewVisibleTrue",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO17adViewVisibleTrueyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO17adViewVisibleTrueyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewVisibleFalse",
-            "printedName": "adViewVisibleFalse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO18adViewVisibleFalseyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO18adViewVisibleFalseyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewSaveState",
-            "printedName": "adViewSaveState",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO15adViewSaveStateyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO15adViewSaveStateyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adViewRestoreState",
-            "printedName": "adViewRestoreState",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO18adViewRestoreStateyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO18adViewRestoreStateyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adWebLoadStart",
-            "printedName": "adWebLoadStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO14adWebLoadStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO14adWebLoadStartyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adWebLoadPageFinish",
-            "printedName": "adWebLoadPageFinish",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO19adWebLoadPageFinishyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO19adWebLoadPageFinishyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adWebLoadError",
-            "printedName": "adWebLoadError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO14adWebLoadErroryA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO14adWebLoadErroryA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adWebLoadProgressFinish",
-            "printedName": "adWebLoadProgressFinish",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO23adWebLoadProgressFinishyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO23adWebLoadProgressFinishyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "interactShakeTrigger",
-            "printedName": "interactShakeTrigger",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20interactShakeTriggeryA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20interactShakeTriggeryA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "interactTwistTrigger",
-            "printedName": "interactTwistTrigger",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20interactTwistTriggeryA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20interactTwistTriggeryA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "interactSlideTrigger",
-            "printedName": "interactSlideTrigger",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20interactSlideTriggeryA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20interactSlideTriggeryA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "clickStandard",
-            "printedName": "clickStandard",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO13clickStandardyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO13clickStandardyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "clickFake",
-            "printedName": "clickFake",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9clickFakeyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9clickFakeyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionListenerAdd",
-            "printedName": "impressionListenerAdd",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO21impressionListenerAddyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO21impressionListenerAddyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "impressionListenerRemove",
-            "printedName": "impressionListenerRemove",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO24impressionListenerRemoveyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO24impressionListenerRemoveyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionStart",
-            "printedName": "impressionStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO15impressionStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO15impressionStartyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionSuccess",
-            "printedName": "impressionSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO17impressionSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO17impressionSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalid",
-            "printedName": "impressionInvalid",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO17impressionInvalidyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO17impressionInvalidyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidRendered",
-            "printedName": "impressionInvalidRendered",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO25impressionInvalidRenderedyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO25impressionInvalidRenderedyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidViewRef",
-            "printedName": "impressionInvalidViewRef",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO24impressionInvalidViewRefyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO24impressionInvalidViewRefyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidAttachWindow",
-            "printedName": "impressionInvalidAttachWindow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO29impressionInvalidAttachWindowyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO29impressionInvalidAttachWindowyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidShown",
-            "printedName": "impressionInvalidShown",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO22impressionInvalidShownyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO22impressionInvalidShownyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidAlpha",
-            "printedName": "impressionInvalidAlpha",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO22impressionInvalidAlphayA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO22impressionInvalidAlphayA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidRect",
-            "printedName": "impressionInvalidRect",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO21impressionInvalidRectyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO21impressionInvalidRectyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidSize",
-            "printedName": "impressionInvalidSize",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO21impressionInvalidSizeyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO21impressionInvalidSizeyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "impressionInvalidRatio",
-            "printedName": "impressionInvalidRatio",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO22impressionInvalidRatioyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO22impressionInvalidRatioyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderStart",
-            "printedName": "adNativeRenderStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO19adNativeRenderStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO19adNativeRenderStartyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderFinish",
-            "printedName": "adNativeRenderFinish",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20adNativeRenderFinishyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20adNativeRenderFinishyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderFail",
-            "printedName": "adNativeRenderFail",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO18adNativeRenderFailyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO18adNativeRenderFailyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceStart",
-            "printedName": "adNativeResourceStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO21adNativeResourceStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO21adNativeResourceStartyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceSuccess",
-            "printedName": "adNativeResourceSuccess",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO23adNativeResourceSuccessyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO23adNativeResourceSuccessyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceFail",
-            "printedName": "adNativeResourceFail",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO20adNativeResourceFailyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO20adNativeResourceFailyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceDataRemote",
-            "printedName": "adNativeResourceDataRemote",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO26adNativeResourceDataRemoteyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO26adNativeResourceDataRemoteyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceDataDiskCache",
-            "printedName": "adNativeResourceDataDiskCache",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO29adNativeResourceDataDiskCacheyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO29adNativeResourceDataDiskCacheyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeResourceDataMemoryCache",
-            "printedName": "adNativeResourceDataMemoryCache",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO31adNativeResourceDataMemoryCacheyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO31adNativeResourceDataMemoryCacheyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderEventExecute",
-            "printedName": "adNativeRenderEventExecute",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO014adNativeRenderD7ExecuteyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO014adNativeRenderD7ExecuteyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderAnimationStart",
-            "printedName": "adNativeRenderAnimationStart",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO28adNativeRenderAnimationStartyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO28adNativeRenderAnimationStartyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "adNativeRenderAnimationEnd",
-            "printedName": "adNativeRenderAnimationEnd",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO26adNativeRenderAnimationEndyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO26adNativeRenderAnimationEndyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "takuLoad",
-            "printedName": "takuLoad",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO8takuLoadyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO8takuLoadyA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "takuShow",
-            "printedName": "takuShow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO8takuShowyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO8takuShowyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "takuDestroy",
-            "printedName": "takuDestroy",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11takuDestroyyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11takuDestroyyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "gromoreInit",
-            "printedName": "gromoreInit",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11gromoreInityA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11gromoreInityA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "gromoreLoad",
-            "printedName": "gromoreLoad",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11gromoreLoadyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11gromoreLoadyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "gromoreShow",
-            "printedName": "gromoreShow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO11gromoreShowyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO11gromoreShowyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "gromoreDestroy",
-            "printedName": "gromoreDestroy",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO14gromoreDestroyyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO14gromoreDestroyyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "tobidInit",
-            "printedName": "tobidInit",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9tobidInityA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9tobidInityA2CmF",
-            "moduleName": "AdtalosAdKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "tobidLoad",
-            "printedName": "tobidLoad",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9tobidLoadyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9tobidLoadyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "tobidShow",
-            "printedName": "tobidShow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO9tobidShowyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO9tobidShowyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Var",
-            "name": "tobidDestroy",
-            "printedName": "tobidDestroy",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AdtalosAdKit.EventType.Type) -> AdtalosAdKit.EventType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AdtalosAdKit.EventType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EventType",
-                        "printedName": "AdtalosAdKit.EventType",
-                        "usr": "s:12AdtalosAdKit9EventTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AdtalosAdKit9EventTypeO12tobidDestroyyA2CmF",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO12tobidDestroyyA2CmF",
-            "moduleName": "AdtalosAdKit"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AdtalosAdKit.EventType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EventType",
-                    "printedName": "AdtalosAdKit.EventType",
-                    "usr": "s:12AdtalosAdKit9EventTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12AdtalosAdKit9EventTypeO8rawValueACSgs5Int32V_tcfc",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO8rawValueACSgs5Int32V_tcfc",
-            "moduleName": "AdtalosAdKit",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int32",
-                "printedName": "Swift.Int32",
-                "usr": "s:s5Int32V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12AdtalosAdKit9EventTypeO8rawValues5Int32Vvp",
-            "mangledName": "$s12AdtalosAdKit9EventTypeO8rawValues5Int32Vvp",
-            "moduleName": "AdtalosAdKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int32",
-                    "printedName": "Swift.Int32",
-                    "usr": "s:s5Int32V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AdtalosAdKit9EventTypeO8rawValues5Int32Vvg",
-                "mangledName": "$s12AdtalosAdKit9EventTypeO8rawValues5Int32Vvg",
-                "moduleName": "AdtalosAdKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12AdtalosAdKit9EventTypeO",
-        "mangledName": "$s12AdtalosAdKit9EventTypeO",
-        "moduleName": "AdtalosAdKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "enumRawTypeName": "Int32",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int32",
-                    "printedName": "Swift.Int32",
-                    "usr": "s:s5Int32V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -13450,6 +9540,16 @@
         "printedName": "Darwin",
         "declKind": "Import",
         "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -14476,6 +10576,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdView.swift",
+      "kind": "StringLiteral",
+      "offset": 26121,
+      "length": 1271,
+      "value": "\"(function () {\n  const postHeight = (height, isFinal) => {\n    window.webkit.messageHandlers.heightHandler.postMessage({\n      height,\n      type: isFinal ? \"final\" : \"progress\"\n    });\n  };\n\n  const getHeight = () => document.body.scrollHeight;\n\n  let lastHeight = 0;\n  let finalTimer = null;\n\n  \/\/ 核心：快速 final\n  const scheduleFinal = () => {\n    if (finalTimer) clearTimeout(finalTimer);\n\n    finalTimer = setTimeout(() => {\n      const h = getHeight();\n      postHeight(h, true);\n    }, 250);\n  };\n\n  const update = () => {\n    const h = getHeight();\n\n    if (h !== lastHeight) {\n      lastHeight = h;\n      postHeight(h, false); \/\/ 立即上报\n      scheduleFinal(); \/\/ 重置 final 倒计时\n    }\n  };\n\n  \/\/ ========= 各种触发 =========\n\n  \/\/ DOM变化\n  const observer = new MutationObserver(update);\n  observer.observe(document.body, {\n    childList: true,\n    subtree: true,\n    attributes: true\n  });\n\n  \/\/ 图片\n  document.querySelectorAll(\"img\").forEach(img => {\n    if (!img.complete) {\n      img.onload = update;\n    }\n  });\n\n  \/\/ video\n  document.querySelectorAll(\"video\").forEach(video => {\n    video.onloadedmetadata = update;\n  });\n\n  \/\/ resize\n  window.addEventListener(\"resize\", update);\n\n  \/\/ 初始触发\n  update();\n\n})();\""
+    },
+    {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 724,
@@ -15418,7 +11525,7 @@
       "kind": "StringLiteral",
       "offset": 3738,
       "length": 7,
-      "value": "\"1.0.4\""
+      "value": "\"1.0.5\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
@@ -16207,14 +12314,14 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/AdtalosEvent.swift",
       "kind": "StringLiteral",
-      "offset": 652,
+      "offset": 596,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/AdtalosEvent.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 645,
       "length": 2,
       "value": "\"\""
     },
@@ -16228,583 +12335,625 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "BooleanLiteral",
-      "offset": 368,
+      "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 428,
       "length": 27,
       "value": "\"com.xy.sdk.event.reporter\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 215,
       "length": 19,
       "value": "\"AdtalosEventModel\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
       "kind": "StringLiteral",
-      "offset": 2521,
+      "offset": 2527,
+      "length": 54,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
       "length": 46,
       "value": "\"Unresolved error \""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2874,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
       "kind": "StringLiteral",
-      "offset": 2566,
+      "offset": 2893,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 136,
+      "offset": 129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 155,
+      "offset": 148,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 186,
+      "offset": 179,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 208,
+      "offset": 201,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 235,
+      "offset": 228,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 264,
+      "offset": 257,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 280,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 302,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 332,
+      "offset": 325,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 354,
+      "offset": 347,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 391,
+      "offset": 384,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 413,
+      "offset": 406,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 442,
+      "offset": 435,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 470,
+      "offset": 463,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 482,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 510,
+      "offset": 503,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 530,
+      "offset": 523,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 553,
+      "offset": 546,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 598,
+      "offset": 591,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 638,
+      "offset": 631,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 672,
+      "offset": 665,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 714,
+      "offset": 707,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 750,
+      "offset": 743,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 783,
+      "offset": 776,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 815,
+      "offset": 808,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 854,
+      "offset": 847,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 881,
+      "offset": 874,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 901,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 938,
+      "offset": 931,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 969,
+      "offset": 962,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 990,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1028,
+      "offset": 1021,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1069,
+      "offset": 1062,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1101,
+      "offset": 1094,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1128,
+      "offset": 1121,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1157,
       "length": 2,
       "value": "53"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1210,
+      "offset": 1203,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1243,
+      "offset": 1236,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1276,
+      "offset": 1269,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
+      "offset": 1314,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1343,
+      "offset": 1336,
       "length": 2,
       "value": "66"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1383,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1427,
+      "offset": 1420,
       "length": 2,
       "value": "71"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1455,
+      "offset": 1448,
       "length": 2,
       "value": "72"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1485,
+      "offset": 1478,
       "length": 2,
       "value": "73"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1515,
+      "offset": 1508,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1554,
+      "offset": 1547,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1591,
+      "offset": 1584,
       "length": 2,
       "value": "81"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1633,
+      "offset": 1626,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1668,
+      "offset": 1661,
       "length": 2,
       "value": "83"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1703,
+      "offset": 1696,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
+      "offset": 1730,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1771,
+      "offset": 1764,
       "length": 2,
       "value": "86"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1806,
+      "offset": 1799,
       "length": 2,
       "value": "87"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1844,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1885,
+      "offset": 1878,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1917,
+      "offset": 1910,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 1946,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1990,
+      "offset": 1983,
       "length": 3,
       "value": "111"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2024,
+      "offset": 2017,
       "length": 3,
       "value": "112"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2064,
+      "offset": 2057,
       "length": 3,
       "value": "113"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2107,
+      "offset": 2100,
       "length": 3,
       "value": "114"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2152,
+      "offset": 2145,
       "length": 3,
       "value": "115"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2192,
+      "offset": 2185,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2234,
+      "offset": 2227,
       "length": 3,
       "value": "121"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2274,
+      "offset": 2267,
       "length": 3,
       "value": "122"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2307,
+      "offset": 2300,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2329,
+      "offset": 2322,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2354,
+      "offset": 2347,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2393,
+      "offset": 2386,
       "length": 3,
       "value": "430"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2418,
+      "offset": 2411,
       "length": 3,
       "value": "431"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2443,
+      "offset": 2436,
       "length": 3,
       "value": "432"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2471,
+      "offset": 2464,
       "length": 3,
       "value": "433"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2506,
+      "offset": 2499,
       "length": 3,
       "value": "460"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2529,
+      "offset": 2522,
       "length": 3,
       "value": "461"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2552,
+      "offset": 2545,
       "length": 3,
       "value": "462"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2578,
+      "offset": 2571,
       "length": 3,
       "value": "463"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2614,
+      "length": 3,
+      "value": "490"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2640,
+      "length": 3,
+      "value": "491"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2669,
+      "length": 3,
+      "value": "492"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/HttpClient.swift",
@@ -17208,77 +13357,84 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1423,
+      "length": 13,
+      "value": "\"sdk_package\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
+      "kind": "StringLiteral",
+      "offset": 1454,
       "length": 7,
       "value": "\"codes\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1485,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1522,
       "length": 14,
       "value": "\"screen_width\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1524,
+      "offset": 1561,
       "length": 15,
       "value": "\"screen_height\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1565,
+      "offset": 1602,
       "length": 17,
       "value": "\"screen_px_ratio\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1607,
+      "offset": 1644,
       "length": 16,
       "value": "\"is_self_render\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1660,
+      "offset": 1697,
       "length": 31,
       "value": "\"https:\/\/api.mobrtb.com\/ad\/sdk\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 1748,
+      "offset": 1785,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 1799,
       "length": 24,
       "value": "\"unitID cannot be empty\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1887,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 1901,
       "length": 22,
       "value": "\"no valid device info\""
     },
@@ -17967,6 +14123,41 @@
       "offset": 23273,
       "length": 5,
       "value": "\"c_e\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/Generated\/Branding.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 12,
+      "value": "\"com.xy.sdk\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/Generated\/Branding.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 9,
+      "value": "\"adtalos\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/Generated\/Branding.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 9,
+      "value": "\"Adtalos\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/Generated\/Branding.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 14,
+      "value": "\"AdtalosAdKit\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/Generated\/Branding.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 26,
+      "value": "\"com.Adtalos.AdtalosAdKit\""
     }
   ]
 }

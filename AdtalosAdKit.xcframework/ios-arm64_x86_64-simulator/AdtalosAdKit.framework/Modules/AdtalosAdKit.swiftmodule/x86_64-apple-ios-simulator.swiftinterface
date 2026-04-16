@@ -185,6 +185,7 @@ import os
   @objc optional func onLoaded()
   @objc optional func onFailedToLoad(_ error: any Swift.Error)
   @objc optional func onRendered()
+  @objc optional func onAdViewHeightChanged(_ height: CoreFoundation.CGFloat, isFinal: Swift.Bool)
   @objc optional func onShown()
   @objc optional func onClicked()
   @objc optional func onLeftApplication()
@@ -363,148 +364,14 @@ infix operator >>> : BitwiseShiftPrecedence
   final public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc(AdtalosEvent) nonisolated public class AdtalosEvent : CoreData.NSManagedObject {
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @NSManaged nonisolated dynamic public var id: Foundation.UUID? {
-    @objc get
-    @objc set
-  }
-  #endif
-  @objc @NSManaged nonisolated dynamic public var eventType: Swift.Int32 {
-    @objc get
-    @objc set
-  }
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @NSManaged nonisolated dynamic public var adToken: Swift.String? {
-    @objc get
-    @objc set
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @NSManaged nonisolated dynamic public var eventID: Swift.String? {
-    @objc get
-    @objc set
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc @NSManaged nonisolated dynamic public var requestID: Swift.String? {
-    @objc get
-    @objc set
-  }
-  #endif
-  @objc @NSManaged nonisolated dynamic public var timestamp: Swift.Int64 {
-    @objc get
-    @objc set
-  }
-  @objc @NSManaged nonisolated dynamic public var reported: Swift.Bool {
-    @objc get
-    @objc set
-  }
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<AdtalosAdKit.AdtalosEvent>
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  #endif
-  @objc deinit
-}
-extension AdtalosAdKit.AdtalosEvent : Swift.Identifiable {
-  public typealias ID = Foundation.UUID?
-}
 @_hasMissingDesignatedInitializers public class EventReporter {
   public static func initialize()
   public static func commit(eventType: Swift.Int32, eventID: Swift.String)
   public static func commit(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String)
-  public static func commit(event: AdtalosAdKit.AdtalosEvent)
   public static func apply(eventType: Swift.Int32, eventID: Swift.String)
   public static func apply(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String)
-  public static func apply(event: AdtalosAdKit.AdtalosEvent)
   public static func flush()
   @objc deinit
-}
-public enum EventType : Swift.Int32 {
-  case initStart
-  case initEnd
-  case initEndFirstInstall
-  case initFailed
-  case initConfigStart
-  case initConfigSuccess
-  case oaidSuccess
-  case oaidFailed
-  case idfaSuccess
-  case idfaFailed
-  case adLoadStart
-  case adRequest
-  case adRequestSuccess
-  case adRequestFailed
-  case adShow
-  case adRender
-  case adClose
-  case adRewarded
-  case adLoadedFromCache
-  case adLoadedFromCacheExpiration
-  case adLoadedFromCacheMiss
-  case adLoadedFromCacheMissPreloads
-  case adLoadedFromCacheFailed
-  case adLoadToCacheSuccess
-  case adLoadToCacheFailed
-  case adViewDestroy
-  case adViewAttached
-  case adViewDetached
-  case adViewVisibleTrue
-  case adViewVisibleFalse
-  case adViewSaveState
-  case adViewRestoreState
-  case adWebLoadStart
-  case adWebLoadPageFinish
-  case adWebLoadError
-  case adWebLoadProgressFinish
-  case interactShakeTrigger
-  case interactTwistTrigger
-  case interactSlideTrigger
-  case clickStandard
-  case clickFake
-  case impressionListenerAdd
-  case impressionListenerRemove
-  case impressionStart
-  case impressionSuccess
-  case impressionInvalid
-  case impressionInvalidRendered
-  case impressionInvalidViewRef
-  case impressionInvalidAttachWindow
-  case impressionInvalidShown
-  case impressionInvalidAlpha
-  case impressionInvalidRect
-  case impressionInvalidSize
-  case impressionInvalidRatio
-  case adNativeRenderStart
-  case adNativeRenderFinish
-  case adNativeRenderFail
-  case adNativeResourceStart
-  case adNativeResourceSuccess
-  case adNativeResourceFail
-  case adNativeResourceDataRemote
-  case adNativeResourceDataDiskCache
-  case adNativeResourceDataMemoryCache
-  case adNativeRenderEventExecute
-  case adNativeRenderAnimationStart
-  case adNativeRenderAnimationEnd
-  case takuLoad
-  case takuShow
-  case takuDestroy
-  case gromoreInit
-  case gromoreLoad
-  case gromoreShow
-  case gromoreDestroy
-  case tobidInit
-  case tobidLoad
-  case tobidShow
-  case tobidDestroy
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.Int32)
-  #endif
-  public typealias RawValue = Swift.Int32
-  public var rawValue: Swift.Int32 {
-    get
-  }
 }
 extension AdtalosAdKit.LossReason : Swift.Equatable {}
 extension AdtalosAdKit.LossReason : Swift.Hashable {}
@@ -515,6 +382,3 @@ extension AdtalosAdKit.VideoMetadata.PlayType : Swift.RawRepresentable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.Equatable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.Hashable {}
 extension AdtalosAdKit.VideoMetadata.Status : Swift.RawRepresentable {}
-extension AdtalosAdKit.EventType : Swift.Equatable {}
-extension AdtalosAdKit.EventType : Swift.Hashable {}
-extension AdtalosAdKit.EventType : Swift.RawRepresentable {}
