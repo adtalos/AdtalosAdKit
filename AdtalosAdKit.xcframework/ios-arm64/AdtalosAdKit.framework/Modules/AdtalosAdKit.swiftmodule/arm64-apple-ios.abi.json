@@ -10578,9 +10578,9 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdView.swift",
       "kind": "StringLiteral",
-      "offset": 26121,
-      "length": 1271,
-      "value": "\"(function () {\n  const postHeight = (height, isFinal) => {\n    window.webkit.messageHandlers.heightHandler.postMessage({\n      height,\n      type: isFinal ? \"final\" : \"progress\"\n    });\n  };\n\n  const getHeight = () => document.body.scrollHeight;\n\n  let lastHeight = 0;\n  let finalTimer = null;\n\n  \/\/ 核心：快速 final\n  const scheduleFinal = () => {\n    if (finalTimer) clearTimeout(finalTimer);\n\n    finalTimer = setTimeout(() => {\n      const h = getHeight();\n      postHeight(h, true);\n    }, 250);\n  };\n\n  const update = () => {\n    const h = getHeight();\n\n    if (h !== lastHeight) {\n      lastHeight = h;\n      postHeight(h, false); \/\/ 立即上报\n      scheduleFinal(); \/\/ 重置 final 倒计时\n    }\n  };\n\n  \/\/ ========= 各种触发 =========\n\n  \/\/ DOM变化\n  const observer = new MutationObserver(update);\n  observer.observe(document.body, {\n    childList: true,\n    subtree: true,\n    attributes: true\n  });\n\n  \/\/ 图片\n  document.querySelectorAll(\"img\").forEach(img => {\n    if (!img.complete) {\n      img.onload = update;\n    }\n  });\n\n  \/\/ video\n  document.querySelectorAll(\"video\").forEach(video => {\n    video.onloadedmetadata = update;\n  });\n\n  \/\/ resize\n  window.addEventListener(\"resize\", update);\n\n  \/\/ 初始触发\n  update();\n\n})();\""
+      "offset": 26185,
+      "length": 1270,
+      "value": "\"(function () {\n  const postHeight = (height, isFinal) => {\n    window.webkit.messageHandlers.heightHandler.postMessage({\n      height,\n      type: isFinal ? \"final\" : \"progress\"\n    });\n  };\n\n  const getHeight = () => document.body.scrollHeight;\n\n  let lastHeight = 0;\n  let finalTimer = null;\n\n  \/\/ 核心：快速 final\n  const scheduleFinal = () => {\n    if (finalTimer) clearTimeout(finalTimer);\n\n    finalTimer = setTimeout(() => {\n      const h = getHeight();\n      postHeight(h, true);\n    }, 250);\n  };\n\n  const update = () => {\n    const h = getHeight();\n\n    if (h !== lastHeight) {\n      lastHeight = h;\n      postHeight(h, false); \/\/ 立即上报\n    }\n\n    scheduleFinal(); \/\/ 重置 final 倒计时\n  };\n\n  \/\/ ========= 各种触发 =========\n\n  \/\/ DOM变化\n  const observer = new MutationObserver(update);\n  observer.observe(document.body, {\n    childList: true,\n    subtree: true,\n    attributes: true\n  });\n\n  \/\/ 图片\n  document.querySelectorAll(\"img\").forEach(img => {\n    if (!img.complete) {\n      img.onload = update;\n    }\n  });\n\n  \/\/ video\n  document.querySelectorAll(\"video\").forEach(video => {\n    video.onloadedmetadata = update;\n  });\n\n  \/\/ resize\n  window.addEventListener(\"resize\", update);\n\n  \/\/ 初始触发\n  update();\n\n})();\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdViewController.swift",
@@ -11523,14 +11523,14 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
+      "offset": 3728,
       "length": 7,
-      "value": "\"1.0.5\""
+      "value": "\"1.0.6\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4449,
+      "offset": 4439,
       "length": 5,
       "value": "false"
     },
@@ -12352,48 +12352,6 @@
       "offset": 215,
       "length": 19,
       "value": "\"AdtalosEventModel\""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2527,
-      "length": 54,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2556,
-      "length": 1,
-      "value": "\"_\""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2580,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2848,
-      "length": 46,
-      "value": "\"Unresolved error \""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2874,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2893,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
