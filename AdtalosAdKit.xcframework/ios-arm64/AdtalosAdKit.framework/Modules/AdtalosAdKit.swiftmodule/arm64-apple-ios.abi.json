@@ -9553,6 +9553,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9794,21 +9811,21 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Base\/BaseAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 5990,
+      "offset": 6006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Base\/BaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 10017,
+      "offset": 10033,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Base\/BaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 10137,
+      "offset": 10153,
       "length": 1,
       "value": "0"
     },
@@ -9892,168 +9909,168 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4161,
+      "offset": 4163,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4234,
+      "offset": 4236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4306,
+      "offset": 4308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4424,
+      "offset": 4426,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4545,
+      "offset": 4547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "Array",
-      "offset": 4607,
+      "offset": 4609,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "Array",
-      "offset": 4680,
+      "offset": 4682,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 4758,
+      "offset": 4760,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 4838,
+      "offset": 4840,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4956,
+      "offset": 4958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5033,
+      "offset": 5035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5235,
+      "offset": 5237,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5379,
+      "offset": 5381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5456,
+      "offset": 5458,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
+      "offset": 5529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5604,
+      "offset": 5606,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 5674,
+      "offset": 5676,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5750,
+      "offset": 5752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5833,
+      "offset": 5835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6936,
+      "offset": 6938,
       "length": 7,
       "value": "\"shake\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6974,
+      "offset": 6976,
       "length": 7,
       "value": "\"twist\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7008,
+      "offset": 7010,
       "length": 7,
       "value": "\"click\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "Array",
-      "offset": 8373,
+      "offset": 8375,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Native\/NativeResponse.swift",
       "kind": "Array",
-      "offset": 8404,
+      "offset": 8406,
       "length": 2,
       "value": "[]"
     },
@@ -11525,7 +11542,7 @@
       "kind": "StringLiteral",
       "offset": 3728,
       "length": 7,
-      "value": "\"1.0.6\""
+      "value": "\"1.0.7\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
@@ -13047,6 +13064,90 @@
       "value": "\"https:\/\/api.mobrtb.com\/sdk\/logging\""
     },
     {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 16,
+      "value": "\"signed_headers\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 10,
+      "value": "\"join_key\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 11,
+      "value": "\"join_key2\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 12,
+      "value": "\"ad_unit_id\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 14,
+      "value": "\"content_type\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 10,
+      "value": "\"app_name\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1281,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 12,
+      "value": "\"app_bundle\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1356,
+      "length": 14,
+      "value": "\"adn_platform\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 13,
+      "value": "\"adn_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/OssUploadHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 42,
+      "value": "\"https:\/\/api.mobrtb.com\/sdk\/oss\/uploading\""
+    },
+    {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
       "kind": "StringLiteral",
       "offset": 157,
@@ -13397,6 +13498,13 @@
       "value": "\"no valid device info\""
     },
     {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Request.swift",
+      "kind": "Array",
+      "offset": 1977,
+      "length": 132,
+      "value": "[\"\", \"null\", \"(null)\", \"<null>\", \"nil\", \"(nil)\", \"<nil>\", \"nul\", \"none\", \"undefined\", \"unknown\", \"na\", \"n\/a\", \"notsupport\"]"
+    },
+    {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "IntegerLiteral",
       "offset": 146,
@@ -13532,553 +13640,560 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2068,
+      "offset": 2094,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2175,
+      "offset": 2201,
       "length": 45,
       "value": "\"is_html_snippet_rendered_by_our_server_side\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2244,
+      "offset": 2270,
       "length": 14,
       "value": "\"html_snippet\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2344,
       "length": 11,
       "value": "\"video_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2351,
+      "offset": 2377,
       "length": 12,
       "value": "\"native_adm\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2432,
       "length": 17,
       "value": "\"fallback_action\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2445,
+      "offset": 2471,
       "length": 12,
       "value": "\"target_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 2507,
       "length": 14,
       "value": "\"deeplink_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2518,
+      "offset": 2544,
       "length": 13,
       "value": "\"instant_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2551,
+      "offset": 2577,
       "length": 10,
       "value": "\"html_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2609,
       "length": 12,
       "value": "\"app_bundle\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2647,
       "length": 17,
       "value": "\"mini_program_id\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2670,
+      "offset": 2696,
       "length": 24,
       "value": "\"mini_program_user_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2722,
+      "offset": 2748,
       "length": 19,
       "value": "\"mini_program_path\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2795,
       "length": 19,
       "value": "\"mini_program_type\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 2836,
       "length": 12,
       "value": "\"sld_action\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2849,
+      "offset": 2875,
       "length": 18,
       "value": "\"sld_action_title\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2894,
+      "offset": 2920,
       "length": 17,
       "value": "\"shake_threshold\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 2966,
       "length": 20,
       "value": "\"shake_target_count\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 2987,
+      "offset": 3013,
       "length": 17,
       "value": "\"twist_threshold\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3060,
       "length": 21,
       "value": "\"twist_target_degree\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
+      "offset": 3110,
       "length": 20,
       "value": "\"win_notice_tracker\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3134,
+      "offset": 3160,
       "length": 21,
       "value": "\"loss_notice_tracker\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3212,
       "length": 21,
       "value": "\"impression_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 3259,
       "length": 16,
       "value": "\"click_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3310,
       "length": 27,
       "value": "\"video_play_begin_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3346,
+      "offset": 3372,
       "length": 27,
       "value": "\"video_play_ended_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3408,
+      "offset": 3434,
       "length": 27,
       "value": "\"video_play_break_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3495,
       "length": 25,
       "value": "\"download_begin_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3528,
+      "offset": 3554,
       "length": 25,
       "value": "\"download_ended_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3583,
+      "offset": 3609,
       "length": 20,
       "value": "\"installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3644,
+      "offset": 3670,
       "length": 33,
       "value": "\"deeplink_app_installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3721,
+      "offset": 3747,
       "length": 37,
       "value": "\"deeplink_app_not_installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3803,
+      "offset": 3829,
       "length": 38,
       "value": "\"deeplink_app_invoke_success_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3885,
+      "offset": 3911,
       "length": 37,
       "value": "\"deeplink_app_invoke_failed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3949,
+      "offset": 3975,
       "length": 17,
       "value": "\"expiration_time\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 3991,
+      "offset": 4017,
       "length": 15,
       "value": "\"expiration_ts\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4059,
       "length": 17,
       "value": "\"custom_strategy\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 4102,
+      "length": 17,
+      "value": "\"show_shake_icon\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 4142,
       "length": 13,
       "value": "\"cache_count\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "IntegerLiteral",
-      "offset": 12438,
+      "offset": 13148,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 12627,
+      "offset": 13337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13649,
+      "offset": 14359,
       "length": 21,
       "value": "\"impression_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13693,
+      "offset": 14403,
       "length": 16,
       "value": "\"click_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13741,
+      "offset": 14451,
       "length": 27,
       "value": "\"video_play_begin_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13800,
+      "offset": 14510,
       "length": 27,
       "value": "\"video_play_ended_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13859,
+      "offset": 14569,
       "length": 27,
       "value": "\"video_play_break_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13917,
+      "offset": 14627,
       "length": 25,
       "value": "\"download_begin_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 13973,
+      "offset": 14683,
       "length": 25,
       "value": "\"download_ended_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14025,
+      "offset": 14735,
       "length": 20,
       "value": "\"installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14083,
+      "offset": 14793,
       "length": 33,
       "value": "\"deeplink_app_installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14157,
+      "offset": 14867,
       "length": 37,
       "value": "\"deeplink_app_not_installed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14236,
+      "offset": 14946,
       "length": 38,
       "value": "\"deeplink_app_invoke_success_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14315,
+      "offset": 15025,
       "length": 37,
       "value": "\"deeplink_app_invoke_failed_trackers\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14378,
+      "offset": 15088,
       "length": 20,
       "value": "\"win_notice_tracker\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 14425,
+      "offset": 15135,
       "length": 21,
       "value": "\"loss_notice_tracker\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18749,
+      "offset": 19459,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18779,
+      "offset": 19489,
       "length": 10,
       "value": "\"logo_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18810,
+      "offset": 19520,
       "length": 11,
       "value": "\"cover_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18842,
+      "offset": 19552,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18876,
+      "offset": 19586,
       "length": 13,
       "value": "\"image_width\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18913,
+      "offset": 19623,
       "length": 14,
       "value": "\"image_height\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 18967,
+      "offset": 19677,
       "length": 14,
       "value": "\"html_snippet\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19004,
+      "offset": 19714,
       "length": 13,
       "value": "\"button_text\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19044,
+      "offset": 19754,
       "length": 17,
       "value": "\"advertiser_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19081,
+      "offset": 19791,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19114,
+      "offset": 19824,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19147,
+      "offset": 19857,
       "length": 10,
       "value": "\"app_desc\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19180,
+      "offset": 19890,
       "length": 14,
       "value": "\"app_desc_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19214,
+      "offset": 19924,
       "length": 10,
       "value": "\"app_size\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19247,
+      "offset": 19957,
       "length": 13,
       "value": "\"privacy_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19286,
+      "offset": 19996,
       "length": 16,
       "value": "\"permission_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19324,
+      "offset": 20034,
       "length": 12,
       "value": "\"video_mute\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 19366,
+      "offset": 20076,
       "length": 21,
       "value": "\"video_autoplay_type\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23173,
+      "offset": 23883,
       "length": 5,
       "value": "\"a_r\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23193,
+      "offset": 23903,
       "length": 5,
       "value": "\"a_c\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23213,
+      "offset": 23923,
       "length": 5,
       "value": "\"a_d\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23233,
+      "offset": 23943,
       "length": 5,
       "value": "\"b_r\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23253,
+      "offset": 23963,
       "length": 5,
       "value": "\"b_c\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 23273,
+      "offset": 23983,
       "length": 5,
       "value": "\"c_e\""
     },

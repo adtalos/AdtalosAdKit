@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fUpRjqHLyIlRAI5l0oGeLJOCLwE=
+		DkT8zFGuqOYQH80ZDATdCa4NyaQ=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		aWcU4Y9PdKXYlWupe3WNOz2neb4=
+		H2/YISPAeGdx0dYU+e0imdON5rI=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KmeGMItJNwb2xudnos9Yrpk4mXo=
+		mt+PFtqWELvma0/Ls2LpJ3sxRo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7zznjLtTuHHonzhgvO5iQVRlWyvHcNH90D31MKE8Uo=
+			GrP0UDuz5EPlmWW8UfFuWvY61khe1DHYxB8SlCihXEM=
 			</data>
 		</dict>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ksLUOSlDAaGQOi18uk5Ln9vDUw+ePu0ya8GMfhduK4k=
+			48ihGH8yUWOxZBpJQjAJM8FwErU3gVeE2wM9R9rI0So=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
