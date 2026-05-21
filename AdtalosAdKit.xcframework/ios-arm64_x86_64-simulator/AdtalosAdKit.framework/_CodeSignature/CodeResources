@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0PoihRsbmGaDVe5ycQwl6UA4/HY=
+		ZfLi1EUcyKKEPaE1LzKJVBS6q4M=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		H2/YISPAeGdx0dYU+e0imdON5rI=
+		Gz2MIqak/BDwMg+R0H2pBEwgi8E=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4xu5rgObPcWf+hXJYrHXqDItlR0=
+		1V7OTw36vWIb2a8zAvxDUdJriLQ=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		H2/YISPAeGdx0dYU+e0imdON5rI=
+		Gz2MIqak/BDwMg+R0H2pBEwgi8E=
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/AdtalosAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4DqJNeUh7+r6PRzoA91oa7bc5OE=
+		bM30FQScBzk43ld+NBNA5NxvJpQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GrP0UDuz5EPlmWW8UfFuWvY61khe1DHYxB8SlCihXEM=
+			4Ci1LfVul7lManhvf9h0AM4c7t0DnrjOtN4yi786RRw=
 			</data>
 		</dict>
 		<key>Modules/AdtalosAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -124,14 +124,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OYe7OLIePSbYoq2lQO5fDvyEleu2vxC6Uvd/VVyiVbM=
+			C6jkc0CuiH3tAtQ/ON5tccbfGXeFSydO9jHtX2ey1KU=
 			</data>
 		</dict>
 		<key>Modules/AdtalosAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GrP0UDuz5EPlmWW8UfFuWvY61khe1DHYxB8SlCihXEM=
+			4Ci1LfVul7lManhvf9h0AM4c7t0DnrjOtN4yi786RRw=
 			</data>
 		</dict>
 		<key>Modules/AdtalosAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -159,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9Sh1GfDabsJ3JFPOKoG8azFEZvfpSaPZwx2B2MHWBs=
+			XY0H4L0/7uJfEJMWA+W9JUag9Q5efyPJoUQYTWv+CaY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
