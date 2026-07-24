@@ -284,6 +284,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -415,6 +416,50 @@ SWIFT_CLASS_NAMED("NativeAd")
 @property (nonatomic, readonly, strong) AdtalosNativeResponse * _Nullable nativeResponse;
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
 - (void)destroy;
+@end
+
+@class NSCoder;
+/// 原生模板广告视图（Native Template Ad View）。
+/// 用法：
+/// \code
+/// let adView = NativeAdView(frame: containerView.bounds)
+/// adView.render(ad: nativeAd)
+/// containerView.addSubview(adView)
+///
+/// \endcode<h3>职责</h3>
+/// <ul>
+///   <li>
+///     通过 <code>TemplateFactoryBuilder</code> 将服务端下发的 <code>NativeTemplate</code> 转换为 <code>AdLayer</code> 视图树
+///   </li>
+///   <li>
+///     实现 <code>AdActionListener</code> / <code>CloseLayerListener</code> / <code>AdTextLayerRewardListener</code>，
+///     作为所有子 layer 的统一动作入口
+///   </li>
+///   <li>
+///     通过 <code>Interaction</code> + <code>ImpressionDetector</code> 完成合规曝光和点击上报
+///   </li>
+///   <li>
+///     通过 <code>AdVisibilityManager</code> 定期检测可见性
+///   </li>
+/// </ul>
+/// <h3>线程安全</h3>
+/// 所有公开方法均须在主线程调用。内部状态变更在主线程执行。
+SWIFT_CLASS_NAMED("NativeAdView")
+@interface AdtalosNativeAdView : UIView
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+/// 使用给定的 <code>NativeAd</code> 渲染原生模板广告（公开接口）。
+- (void)renderWithAd:(AdtalosNativeAd * _Nonnull)ad;
+- (void)layoutSubviews;
+/// 销毁广告视图，释放所有内部资源。
+/// 调用后视图从父视图中移除，所有子 layer 视图一并移除。
+/// 重复调用安全。
+- (void)destroy;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AdtalosNativeAdView (SWIFT_EXTENSION(AdtalosAdKit))
+- (void)checkVisibility;
 @end
 
 @class UIImage;
@@ -854,6 +899,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #endif
@@ -985,6 +1031,50 @@ SWIFT_CLASS_NAMED("NativeAd")
 @property (nonatomic, readonly, strong) AdtalosNativeResponse * _Nullable nativeResponse;
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
 - (void)destroy;
+@end
+
+@class NSCoder;
+/// 原生模板广告视图（Native Template Ad View）。
+/// 用法：
+/// \code
+/// let adView = NativeAdView(frame: containerView.bounds)
+/// adView.render(ad: nativeAd)
+/// containerView.addSubview(adView)
+///
+/// \endcode<h3>职责</h3>
+/// <ul>
+///   <li>
+///     通过 <code>TemplateFactoryBuilder</code> 将服务端下发的 <code>NativeTemplate</code> 转换为 <code>AdLayer</code> 视图树
+///   </li>
+///   <li>
+///     实现 <code>AdActionListener</code> / <code>CloseLayerListener</code> / <code>AdTextLayerRewardListener</code>，
+///     作为所有子 layer 的统一动作入口
+///   </li>
+///   <li>
+///     通过 <code>Interaction</code> + <code>ImpressionDetector</code> 完成合规曝光和点击上报
+///   </li>
+///   <li>
+///     通过 <code>AdVisibilityManager</code> 定期检测可见性
+///   </li>
+/// </ul>
+/// <h3>线程安全</h3>
+/// 所有公开方法均须在主线程调用。内部状态变更在主线程执行。
+SWIFT_CLASS_NAMED("NativeAdView")
+@interface AdtalosNativeAdView : UIView
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+/// 使用给定的 <code>NativeAd</code> 渲染原生模板广告（公开接口）。
+- (void)renderWithAd:(AdtalosNativeAd * _Nonnull)ad;
+- (void)layoutSubviews;
+/// 销毁广告视图，释放所有内部资源。
+/// 调用后视图从父视图中移除，所有子 layer 视图一并移除。
+/// 重复调用安全。
+- (void)destroy;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface AdtalosNativeAdView (SWIFT_EXTENSION(AdtalosAdKit))
+- (void)checkVisibility;
 @end
 
 @class UIImage;
