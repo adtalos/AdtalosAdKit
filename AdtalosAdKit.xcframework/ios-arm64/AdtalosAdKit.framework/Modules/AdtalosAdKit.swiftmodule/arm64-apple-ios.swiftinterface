@@ -6,6 +6,7 @@ import AVFoundation
 import AVKit
 import AdSupport
 import AppTrackingTransparency
+import CommonCrypto
 import CoreData
 import CoreLocation
 import CoreMotion
@@ -242,7 +243,7 @@ extension AdtalosAdKit.NativeAdView {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func checkVisibility()
 }
 @_hasMissingDesignatedInitializers @objc(AdtalosBannerAd) public class BannerAd : AdtalosAdKit.ViewAd, @unchecked Swift.Sendable {
-  public init(frame: CoreFoundation.CGRect, unitID: Swift.String)
+  @objc public init(frame: CoreFoundation.CGRect, unitID: Swift.String)
   @_Concurrency.MainActor @objc public init(_ pos: CoreFoundation.CGPoint, unitID: Swift.String)
   @_Concurrency.MainActor @objc convenience public init(unitID: Swift.String)
   @objc deinit

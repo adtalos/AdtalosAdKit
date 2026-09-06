@@ -4848,11 +4848,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AdtalosAdKit06BannerB0C5frame6unitIDACSo6CGRectV_SStcfc",
+            "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosBannerAd(im)initWithFrame:unitID:",
             "mangledName": "$s12AdtalosAdKit06BannerB0C5frame6unitIDACSo6CGRectV_SStcfc",
             "moduleName": "AdtalosAdKit",
+            "objc_name": "initWithFrame:unitID:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -8984,6 +8986,13 @@
         "moduleName": "AdtalosAdKit"
       },
       {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -9425,6 +9434,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AdtalosAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -11051,245 +11070,245 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/ImpressionDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 441,
+      "offset": 477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/ImpressionDetector.swift",
       "kind": "BooleanLiteral",
-      "offset": 536,
+      "offset": 572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 495,
       "length": 4,
       "value": "\"10\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 525,
       "length": 4,
       "value": "\"11\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 257,
+      "offset": 549,
       "length": 4,
       "value": "\"12\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 579,
       "length": 4,
       "value": "\"13\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 322,
+      "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 353,
+      "offset": 645,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 383,
+      "offset": 675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "FloatLiteral",
-      "offset": 566,
+      "offset": 858,
       "length": 6,
       "value": "-999.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "FloatLiteral",
-      "offset": 600,
+      "offset": 892,
       "length": 6,
       "value": "-999.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "IntegerLiteral",
-      "offset": 637,
+      "offset": 929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "FloatLiteral",
-      "offset": 664,
+      "offset": 956,
       "length": 6,
       "value": "-999.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "FloatLiteral",
-      "offset": 696,
+      "offset": 988,
       "length": 6,
       "value": "-999.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "IntegerLiteral",
-      "offset": 731,
+      "offset": 1023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 774,
+      "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "IntegerLiteral",
-      "offset": 5338,
+      "offset": 6004,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26174,
+      "offset": 25402,
       "length": 7,
       "value": "\"WXApi\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26234,
+      "offset": 25462,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26258,
+      "offset": 25486,
       "length": 42,
       "value": "\"WechatOpenSDK not integrated by host app\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 26319,
+      "offset": 25547,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26471,
+      "offset": 25699,
       "length": 24,
       "value": "\"WXLaunchMiniProgramReq\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26548,
+      "offset": 25776,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26572,
+      "offset": 25800,
       "length": 40,
       "value": "\"WXLaunchMiniProgramReq class not found\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 26631,
+      "offset": 25859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26722,
+      "offset": 25950,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26788,
+      "offset": 26016,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26879,
+      "offset": 26107,
       "length": 17,
       "value": "\"miniProgramType\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27135,
+      "offset": 26363,
       "length": 21,
       "value": "\"sendReq:completion:\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27234,
+      "offset": 26462,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27258,
+      "offset": 26486,
       "length": 47,
       "value": "\"WXApi does not respond to sendReq:completion:\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 27324,
+      "offset": 26552,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27851,
+      "offset": 27079,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27875,
+      "offset": 27103,
       "length": 41,
       "value": "\"WXApi sendReq:completion: IMP not found\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 27935,
+      "offset": 27163,
       "length": 5,
       "value": "false"
     },
@@ -11912,42 +11931,49 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 208,
+      "offset": 222,
       "length": 14,
       "value": "\"onImpression\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 238,
+      "offset": 252,
       "length": 9,
       "value": "\"onClick\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 268,
+      "offset": 282,
       "length": 14,
       "value": "\"onVideoStart\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 315,
       "length": 12,
       "value": "\"onVideoEnd\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 336,
+      "offset": 350,
       "length": 16,
       "value": "\"onCloseAdClick\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
       "kind": "StringLiteral",
-      "offset": 373,
+      "offset": 401,
+      "length": 28,
+      "value": "\"onCloseAdClickBeforeReward\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/ActionTiming.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
       "length": 14,
       "value": "\"onJumpReturn\""
     },
@@ -12080,14 +12106,14 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/NativeTemplate.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 848,
       "length": 16,
       "value": "\"is_concurrency\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Data\/NativeTemplate.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 920,
       "length": 13,
       "value": "\"template_id\""
     },
@@ -12101,21 +12127,21 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Engine\/GenerateStrategy.swift",
       "kind": "Dictionary",
-      "offset": 1763,
+      "offset": 1677,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Engine\/NativeLayerEventExecutor.swift",
       "kind": "Dictionary",
-      "offset": 3018,
+      "offset": 3115,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Engine\/NativeLayerEventExecutor.swift",
       "kind": "Array",
-      "offset": 3140,
+      "offset": 3238,
       "length": 2,
       "value": "[]"
     },
@@ -12150,7 +12176,7 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdContainerLayer.swift",
       "kind": "Array",
-      "offset": 1018,
+      "offset": 1070,
       "length": 2,
       "value": "[]"
     },
@@ -12178,56 +12204,84 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdImageLayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13755,
+      "offset": 14700,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdImageLayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13767,
+      "offset": 14712,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3722,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5151,
+      "offset": 4534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6272,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7926,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8013,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdLayer.swift",
       "kind": "StringLiteral",
-      "offset": 7893,
+      "offset": 11222,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdTextLayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdTextLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 827,
+      "offset": 743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdTextLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 868,
+      "offset": 784,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/Layers\/AdTextLayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1240,
+      "offset": 1156,
       "length": 5,
       "value": "false"
     },
@@ -12269,65 +12323,79 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1365,
+      "offset": 1413,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1407,
+      "offset": 1455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1443,
+      "offset": 1491,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1477,
+      "offset": 1525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1571,
+      "offset": 1677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1626,
+      "offset": 1732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1683,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1946,
+      "offset": 1789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2551,
+      "offset": 2166,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Template\/NativeAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14178,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdView.swift",
@@ -12388,7 +12456,7 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/AdView.swift",
       "kind": "StringLiteral",
-      "offset": 27413,
+      "offset": 27450,
       "length": 1470,
       "value": "\"(function () {\n  const postHeight = (height, isFinal) => {\n    window.webkit.messageHandlers.heightHandler.postMessage({\n      height,\n      type: isFinal ? \"final\" : \"progress\"\n    });\n  };\n\n  const getHeight = () => document.body.scrollHeight;\n\n  let lastHeight = 0;\n  let finalTimer = null;\n\n  \/\/ 核心：快速 final\n  const scheduleFinal = () => {\n    if (finalTimer) clearTimeout(finalTimer);\n\n    finalTimer = setTimeout(() => {\n      const h = getHeight();\n      postHeight(h, true);\n    }, 250);\n  };\n\n  const update = () => {\n    const h = getHeight();\n\n    if (h !== lastHeight) {\n      lastHeight = h;\n      postHeight(h, false); \/\/ 立即上报\n    }\n\n    scheduleFinal(); \/\/ 重置 final 倒计时\n  };\n\n  \/\/ ========= 各种触发 =========\n\n  \/\/ DOM变化\n  const observer = new MutationObserver(update);\n  observer.observe(document.body, {\n    childList: true,\n    subtree: true,\n    attributes: true\n  });\n\n  \/\/ 图片\n  document.querySelectorAll(\"img\").forEach(img => {\n    if (!img.complete) {\n      img.onload = update;\n    }\n  });\n\n  \/\/ video\n  document.querySelectorAll(\"video\").forEach(video => {\n    video.onloadedmetadata = update;\n  });\n\n  \/\/ resize\n  window.addEventListener(\"resize\", update);\n\n  \/\/ 初始触发\n  update();\n\n})();\""
     },
@@ -12409,7 +12477,7 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/LocalWebAdPackageBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1854,
+      "offset": 1601,
       "length": 31,
       "value": "\"com.adtalos.localWebAdPackage\""
     },
@@ -12619,7 +12687,7 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/UI\/SlideHintView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4435,
+      "offset": 4542,
       "length": 1,
       "value": "2"
     },
@@ -12857,28 +12925,28 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9557,
+      "offset": 9596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9587,
+      "offset": 9626,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9620,
+      "offset": 9659,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9657,
+      "offset": 9696,
       "length": 5,
       "value": "false"
     },
@@ -12891,92 +12959,71 @@
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 988,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 1198,
+      "offset": 1189,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1235,
+      "offset": 1226,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1493,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "StringLiteral",
-      "offset": 1543,
+      "offset": 1473,
       "length": 35,
       "value": "\"M 11.33 6 L 11.33 30 L 31.33 18 Z\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1600,
+      "offset": 1530,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1612,
+      "offset": 1542,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "FloatLiteral",
-      "offset": 1730,
+      "offset": 1712,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1767,
+      "offset": 1749,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1793,
+      "offset": 1775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
-      "kind": "Array",
-      "offset": 1997,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8861,
+      "offset": 9115,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Video\/NativeVideoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8873,
+      "offset": 9127,
       "length": 2,
       "value": "24"
     },
@@ -13077,6 +13124,13 @@
       "offset": 1001,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/AppChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1203,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/AppInfo.swift",
@@ -13459,21 +13513,21 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 8556,
+      "offset": 8482,
       "length": 42,
       "value": "\"com.adtalos.preferences.dailyclick.queue\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 8676,
+      "offset": 8602,
       "length": 3,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 8693,
+      "offset": 8619,
       "length": 3,
       "value": "\"b\""
     },
@@ -13648,126 +13702,168 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 735,
       "length": 8,
       "value": "\"js_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 787,
       "length": 20,
       "value": "\"allow_empty_device\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 829,
       "length": 12,
       "value": "\"record_log\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 875,
       "length": 26,
       "value": "\"geo_refresh_time_seconds\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 785,
+      "offset": 939,
       "length": 30,
       "value": "\"event_report_flush_threshold\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 1003,
       "length": 26,
       "value": "\"event_report_flush_limit\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 1055,
       "length": 17,
       "value": "\"ad_type_configs\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 1098,
       "length": 16,
       "value": "\"logging_events\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 1134,
+      "length": 10,
+      "value": "\"join_key\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 18,
+      "value": "\"join_key_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1210,
+      "length": 11,
+      "value": "\"join_key2\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 19,
+      "value": "\"join_key2_version\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 23,
+      "value": "\"join_key_expire_after\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3431,
       "length": 19,
       "value": "\"min_visible_ratio\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 3473,
       "length": 14,
       "value": "\"min_width_px\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 3511,
       "length": 15,
       "value": "\"min_height_px\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2742,
+      "offset": 3559,
       "length": 25,
       "value": "\"min_visible_duration_ms\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 3605,
       "length": 11,
       "value": "\"min_alpha\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2822,
+      "offset": 3639,
       "length": 13,
       "value": "\"cache_count\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2856,
+      "offset": 3673,
       "length": 10,
       "value": "\"viewshot\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 2901,
+      "offset": 3718,
       "length": 26,
       "value": "\"enable_negative_feedback\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "StringLiteral",
-      "offset": 3979,
+      "offset": 4796,
       "length": 7,
-      "value": "\"1.1.1\""
+      "value": "\"1.1.2\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4690,
+      "offset": 5507,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5582,
       "length": 5,
       "value": "false"
     },
@@ -13945,6 +14041,97 @@
       "offset": 1412,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 386,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 391,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 398,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 26,
+      "value": "\"com.adtalos.webhtmlcache\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "Dictionary",
+      "offset": 687,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/WebHTMLCache.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 10,
+      "value": "\"web_html\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Crypto\/CryptHandler.swift",
@@ -14817,56 +15004,56 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2305,
+      "offset": 2201,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2332,
+      "offset": 2228,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 2357,
+      "offset": 2253,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 2277,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2759,
+      "offset": 2655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2786,
+      "offset": 2682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 2811,
+      "offset": 2707,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventReporter.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2731,
       "length": 2,
       "value": "\"\""
     },
@@ -14957,618 +15144,653 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 404,
+      "offset": 407,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 427,
+      "offset": 433,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 448,
+      "offset": 454,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 485,
+      "offset": 491,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 507,
+      "offset": 513,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 536,
+      "offset": 542,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 564,
+      "offset": 570,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 589,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 610,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 624,
+      "offset": 630,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 647,
+      "offset": 653,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 674,
+      "offset": 680,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 706,
       "length": 2,
       "value": "29"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 745,
+      "offset": 751,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 785,
+      "offset": 791,
       "length": 2,
       "value": "31"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 819,
+      "offset": 825,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 861,
+      "offset": 867,
       "length": 2,
       "value": "33"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 897,
+      "offset": 903,
       "length": 2,
       "value": "34"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 930,
+      "offset": 936,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 962,
+      "offset": 968,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1001,
+      "offset": 1007,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1028,
+      "offset": 1034,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1055,
+      "offset": 1061,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1085,
+      "offset": 1091,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1116,
+      "offset": 1122,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1144,
+      "offset": 1150,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1175,
+      "offset": 1181,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1216,
+      "offset": 1222,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1248,
+      "offset": 1254,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1281,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1311,
+      "offset": 1317,
       "length": 2,
       "value": "53"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 1363,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1396,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1423,
+      "offset": 1429,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1468,
+      "offset": 1474,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1490,
+      "offset": 1496,
       "length": 2,
       "value": "66"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1537,
+      "offset": 1543,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1574,
+      "offset": 1580,
       "length": 2,
       "value": "71"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1602,
+      "offset": 1608,
       "length": 2,
       "value": "72"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1632,
+      "offset": 1638,
       "length": 2,
       "value": "73"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1668,
       "length": 2,
       "value": "74"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1701,
+      "offset": 1707,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1738,
+      "offset": 1744,
       "length": 2,
       "value": "81"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1780,
+      "offset": 1786,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 1821,
       "length": 2,
       "value": "83"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1856,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1884,
+      "offset": 1890,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1918,
+      "offset": 1924,
       "length": 2,
       "value": "86"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 1959,
       "length": 2,
       "value": "87"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 1983,
+      "offset": 1989,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2010,
+      "offset": 2016,
       "length": 2,
       "value": "91"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2044,
+      "offset": 2050,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2077,
+      "offset": 2083,
       "length": 2,
       "value": "93"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2098,
+      "offset": 2104,
       "length": 2,
       "value": "94"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2143,
+      "offset": 2149,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2177,
+      "offset": 2183,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2209,
+      "offset": 2215,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2245,
+      "offset": 2251,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2282,
+      "offset": 2288,
       "length": 3,
       "value": "111"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2316,
+      "offset": 2322,
       "length": 3,
       "value": "112"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2356,
+      "offset": 2362,
       "length": 3,
       "value": "113"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2399,
+      "offset": 2405,
       "length": 3,
       "value": "114"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2444,
+      "offset": 2450,
       "length": 3,
       "value": "115"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2487,
+      "offset": 2493,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2529,
+      "offset": 2535,
       "length": 3,
       "value": "121"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2569,
+      "offset": 2575,
       "length": 3,
       "value": "122"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2613,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2643,
+      "offset": 2649,
       "length": 3,
       "value": "131"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2679,
+      "offset": 2685,
       "length": 3,
       "value": "132"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2714,
+      "offset": 2720,
       "length": 3,
       "value": "133"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2755,
+      "offset": 2761,
       "length": 3,
       "value": "134"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2796,
+      "offset": 2802,
       "length": 3,
       "value": "135"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2835,
+      "offset": 2841,
       "length": 3,
       "value": "136"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2868,
+      "offset": 2886,
+      "length": 3,
+      "value": "140"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2919,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2890,
+      "offset": 2941,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2915,
+      "offset": 2966,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2954,
+      "offset": 3005,
       "length": 3,
       "value": "430"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2979,
+      "offset": 3030,
       "length": 3,
       "value": "431"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3004,
+      "offset": 3055,
       "length": 3,
       "value": "432"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3032,
+      "offset": 3083,
       "length": 3,
       "value": "433"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3067,
+      "offset": 3118,
       "length": 3,
       "value": "460"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3090,
+      "offset": 3141,
       "length": 3,
       "value": "461"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3113,
+      "offset": 3164,
       "length": 3,
       "value": "462"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3139,
+      "offset": 3190,
       "length": 3,
       "value": "463"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3180,
+      "offset": 3231,
       "length": 3,
       "value": "490"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3206,
+      "offset": 3257,
       "length": 3,
       "value": "491"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3232,
+      "offset": 3283,
       "length": 3,
       "value": "492"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
+      "offset": 3312,
       "length": 3,
       "value": "493"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3349,
+      "length": 3,
+      "value": "520"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3373,
+      "length": 3,
+      "value": "521"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3397,
+      "length": 3,
+      "value": "522"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Event\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3424,
+      "length": 3,
+      "value": "523"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/HttpClient.swift",
@@ -16714,175 +16936,175 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21617,
+      "offset": 22075,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21647,
+      "offset": 22105,
       "length": 10,
       "value": "\"logo_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21678,
+      "offset": 22136,
       "length": 11,
       "value": "\"cover_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21710,
+      "offset": 22168,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21744,
+      "offset": 22202,
       "length": 13,
       "value": "\"image_width\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21781,
+      "offset": 22239,
       "length": 14,
       "value": "\"image_height\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21835,
+      "offset": 22293,
       "length": 14,
       "value": "\"html_snippet\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21872,
+      "offset": 22330,
       "length": 13,
       "value": "\"button_text\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21912,
+      "offset": 22370,
       "length": 17,
       "value": "\"advertiser_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21949,
+      "offset": 22407,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 21982,
+      "offset": 22440,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22015,
+      "offset": 22473,
       "length": 10,
       "value": "\"app_desc\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22048,
+      "offset": 22506,
       "length": 14,
       "value": "\"app_desc_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22082,
+      "offset": 22540,
       "length": 10,
       "value": "\"app_size\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22115,
+      "offset": 22573,
       "length": 13,
       "value": "\"privacy_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22154,
+      "offset": 22612,
       "length": 16,
       "value": "\"permission_url\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22192,
+      "offset": 22650,
       "length": 12,
       "value": "\"video_mute\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 22234,
+      "offset": 22692,
       "length": 21,
       "value": "\"video_autoplay_type\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26056,
+      "offset": 26514,
       "length": 5,
       "value": "\"a_r\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26076,
+      "offset": 26534,
       "length": 5,
       "value": "\"a_c\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26096,
+      "offset": 26554,
       "length": 5,
       "value": "\"a_d\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26116,
+      "offset": 26574,
       "length": 5,
       "value": "\"b_r\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26136,
+      "offset": 26594,
       "length": 5,
       "value": "\"b_c\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26156,
+      "offset": 26614,
       "length": 5,
       "value": "\"c_e\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Net\/Response.swift",
       "kind": "StringLiteral",
-      "offset": 26176,
+      "offset": 26634,
       "length": 5,
       "value": "\"s_l\""
     },

@@ -344,6 +344,7 @@ SWIFT_CLASS_NAMED("ViewAd")
 
 SWIFT_CLASS_NAMED("BannerAd")
 @interface AdtalosBannerAd : AdtalosViewAd
+- (nonnull instancetype)initWithFrame:(CGRect)frame unitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init:(CGPoint)pos unitID:(NSString * _Nonnull)unitID OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithUnitID:(NSString * _Nonnull)unitID;
 @end
