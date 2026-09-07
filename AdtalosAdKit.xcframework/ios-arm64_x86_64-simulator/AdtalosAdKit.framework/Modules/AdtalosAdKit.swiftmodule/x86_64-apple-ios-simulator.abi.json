@@ -10685,14 +10685,14 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Base\/BaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 10474,
+      "offset": 10589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Base\/BaseAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 10594,
+      "offset": 10709,
       "length": 1,
       "value": "0"
     },
@@ -11182,133 +11182,133 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "IntegerLiteral",
-      "offset": 6004,
+      "offset": 6048,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25402,
+      "offset": 25496,
       "length": 7,
       "value": "\"WXApi\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25462,
+      "offset": 25556,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25486,
+      "offset": 25580,
       "length": 42,
       "value": "\"WechatOpenSDK not integrated by host app\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 25547,
+      "offset": 25641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25699,
+      "offset": 25793,
       "length": 24,
       "value": "\"WXLaunchMiniProgramReq\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25776,
+      "offset": 25870,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25800,
+      "offset": 25894,
       "length": 40,
       "value": "\"WXLaunchMiniProgramReq class not found\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 25859,
+      "offset": 25953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 25950,
+      "offset": 26044,
       "length": 10,
       "value": "\"userName\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26016,
+      "offset": 26110,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26107,
+      "offset": 26201,
       "length": 17,
       "value": "\"miniProgramType\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26363,
+      "offset": 26457,
       "length": 21,
       "value": "\"sendReq:completion:\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26462,
+      "offset": 26556,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 26486,
+      "offset": 26580,
       "length": 47,
       "value": "\"WXApi does not respond to sendReq:completion:\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 26552,
+      "offset": 26646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27079,
+      "offset": 27173,
       "length": 13,
       "value": "\"OpenMiniApp\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "StringLiteral",
-      "offset": 27103,
+      "offset": 27197,
       "length": 41,
       "value": "\"WXApi sendReq:completion: IMP not found\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/Interaction.swift",
       "kind": "BooleanLiteral",
-      "offset": 27163,
+      "offset": 27257,
       "length": 5,
       "value": "false"
     },
