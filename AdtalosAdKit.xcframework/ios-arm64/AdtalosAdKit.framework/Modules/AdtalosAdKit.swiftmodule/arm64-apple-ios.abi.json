@@ -11665,203 +11665,203 @@
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 20154,
+      "offset": 20183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 27181,
+      "offset": 27210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27249,
+      "offset": 27278,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27334,
+      "offset": 27363,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 27399,
+      "offset": 27428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "Array",
-      "offset": 27500,
+      "offset": 27529,
       "length": 9,
       "value": "[0, 0, 0]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27598,
+      "offset": 27627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 27702,
+      "offset": 27731,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27779,
+      "offset": 27808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27866,
+      "offset": 27895,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "Array",
-      "offset": 28158,
+      "offset": 28187,
       "length": 9,
       "value": "[0, 0, 0]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 28252,
+      "offset": 28281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 28343,
+      "offset": 28372,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 28600,
+      "offset": 28629,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 28695,
+      "offset": 28724,
       "length": 4,
       "value": "35.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 28789,
+      "offset": 28818,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 28881,
+      "offset": 28910,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 28989,
+      "offset": 29018,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 29104,
+      "offset": 29133,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 29202,
+      "offset": 29231,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 29336,
+      "offset": 29365,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 29463,
+      "offset": 29492,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 29913,
+      "offset": 29942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 30043,
+      "offset": 30072,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 30177,
+      "offset": 30206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "Array",
-      "offset": 30303,
+      "offset": 30332,
       "length": 9,
       "value": "[0, 0, 0]"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 30444,
+      "offset": 30473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 30540,
+      "offset": 30569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Ads\/Runtime\/MotionInteractionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 35488,
+      "offset": 35517,
       "length": 5,
       "value": "180.0"
     },
@@ -13851,7 +13851,7 @@
       "kind": "StringLiteral",
       "offset": 4796,
       "length": 7,
-      "value": "\"1.1.2\""
+      "value": "\"1.1.3\""
     },
     {
       "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/ios-xy-sdk(zhaoyan)\/ios-xy-sdk\/AdtalosAdKit\/AdtalosAdKit\/AdtalosAd\/Core\/SDK.swift",
