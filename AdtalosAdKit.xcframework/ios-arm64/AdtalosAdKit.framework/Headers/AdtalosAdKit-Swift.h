@@ -500,6 +500,8 @@ SWIFT_CLASS_NAMED("NativeResponse")
 - (void)videoPause;
 - (void)videoMute:(BOOL)mute;
 @property (nonatomic, readonly, copy) NSString * _Nonnull sldAction;
+/// 当前广告启用的全部 SLD 能力，顺序与服务端归一化后的 <code>sld_actions</code> 一致。
+@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull sldActions;
 /// 自定义 MotionHintView 的缩放与位置（需在 registerViews 之后调用）
 /// \param scale 缩放比例（同时作用于图片和文字），<= 0 表示不修改缩放
 ///
@@ -531,6 +533,12 @@ SWIFT_CLASS_NAMED("SDK")
 @interface AdtalosSDK : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull sdkVersion;)
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
+/// 当前接入的 ADN 平台及其适配器版本，用于事件和网络请求标识。
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull adnPlatform;)
++ (NSString * _Nonnull)adnPlatform SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull adnVersion;)
++ (NSString * _Nonnull)adnVersion SWIFT_WARN_UNUSED_RESULT;
++ (void)setAdnInfoWithPlatform:(NSString * _Nonnull)platform version:(NSString * _Nonnull)version;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull userAgent;)
 + (NSString * _Nonnull)userAgent SWIFT_WARN_UNUSED_RESULT;
 + (void)setUserAgent:(NSString * _Nonnull)newValue;

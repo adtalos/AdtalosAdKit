@@ -174,6 +174,9 @@ import os
   @objc public var sldAction: Swift.String {
     @objc get
   }
+  @objc public var sldActions: [Swift.String] {
+    @objc get
+  }
   @objc public func configureMotionHintView(scale: CoreFoundation.CGFloat, x: CoreFoundation.CGFloat, y: CoreFoundation.CGFloat)
   @objc public func refreshMotionHintViewPosition()
   #if compiler(>=5.3) && $NonescapableTypes
@@ -356,6 +359,13 @@ extension AdtalosAdKit.NativeAdView {
 }
 @_inheritsConvenienceInitializers @objc(AdtalosSDK) final public class SDK : ObjectiveC.NSObject {
   @objc public static let sdkVersion: Swift.String
+  @objc public static var adnPlatform: Swift.String {
+    get
+  }
+  @objc public static var adnVersion: Swift.String {
+    get
+  }
+  @objc public static func setAdnInfo(platform: Swift.String, version: Swift.String)
   @objc public static var userAgent: Swift.String {
     @objc get
     @objc set
@@ -384,7 +394,7 @@ infix operator >>> : BitwiseShiftPrecedence
 }
 @_hasMissingDesignatedInitializers public class EventReporter {
   public static func initialize()
-  public static func commit(eventType: Swift.Int32, eventID: Swift.String, componentID: Swift.Int32 = 0, templateID: Swift.Int32 = 0, eventOn: Swift.String = "", error: Swift.String = "")
+  public static func commit(eventType: Swift.Int32, eventID: Swift.String, componentID: Swift.Int32 = 0, templateID: Swift.Int32 = 0, eventOn: Swift.String = "", error: Swift.String = "", bundles: [Swift.String] = [])
   public static func commit(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String, componentID: Swift.Int32 = 0, templateID: Swift.Int32 = 0, eventOn: Swift.String = "", error: Swift.String = "")
   public static func apply(eventType: Swift.Int32, eventID: Swift.String, componentID: Swift.Int32 = 0, templateID: Swift.Int32 = 0, eventOn: Swift.String = "", error: Swift.String = "")
   public static func apply(eventType: Swift.Int32, adToken: Swift.String, eventID: Swift.String, requestID: Swift.String, componentID: Swift.Int32 = 0, templateID: Swift.Int32 = 0, eventOn: Swift.String = "", error: Swift.String = "")
