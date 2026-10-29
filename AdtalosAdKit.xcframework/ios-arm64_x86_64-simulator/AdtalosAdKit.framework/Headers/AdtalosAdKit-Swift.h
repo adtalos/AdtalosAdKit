@@ -315,6 +315,9 @@ SWIFT_CLASS_NAMED("BaseAd")
 @interface AdtalosBaseAd : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull unitID;
 @property (nonatomic) NSInteger autoRetry;
+/// 是否允许摇一摇。请在 load() 前设置；true 时仍遵循服务端配置，缓存广告同样生效。
+/// 已创建的广告视图不随此属性变更；同一实例会保留该配置，不会在展示后自动重置。
+@property (nonatomic) BOOL shakeEnabled;
 @property (nonatomic, readonly, copy) NSString * _Nonnull adResponseEventID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull adResponseRequestID;
 /// 释放广告相关资源。具体逻辑由子类实现；基类默认为空。
@@ -939,6 +942,9 @@ SWIFT_CLASS_NAMED("BaseAd")
 @interface AdtalosBaseAd : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull unitID;
 @property (nonatomic) NSInteger autoRetry;
+/// 是否允许摇一摇。请在 load() 前设置；true 时仍遵循服务端配置，缓存广告同样生效。
+/// 已创建的广告视图不随此属性变更；同一实例会保留该配置，不会在展示后自动重置。
+@property (nonatomic) BOOL shakeEnabled;
 @property (nonatomic, readonly, copy) NSString * _Nonnull adResponseEventID;
 @property (nonatomic, readonly, copy) NSString * _Nonnull adResponseRequestID;
 /// 释放广告相关资源。具体逻辑由子类实现；基类默认为空。

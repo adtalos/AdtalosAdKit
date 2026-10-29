@@ -29,6 +29,7 @@ import os
 @_hasMissingDesignatedInitializers @objc(AdtalosBaseAd) public class BaseAd : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc final public let unitID: Swift.String
   @objc public var autoRetry: Swift.Int
+  @objc public var shakeEnabled: Swift.Bool
   @_Concurrency.MainActor @objc public var adResponseEventID: Swift.String {
     @objc get
   }
